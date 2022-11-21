@@ -1,6 +1,6 @@
 <?php
-	header( "refresh:10;url=upload.html" );
-	$username = "milldev";
+	header( "refresh:10;url=upload.php" );
+	$username = $_GET['username'];
 
 
     $currentDirectory = getcwd();
