@@ -11,7 +11,11 @@ key,5
 key2,5
 key3,5
 key4,5
+<<<<<<< HEAD
 f,6
 hjfkds,6
 fdshjk,6
 af,6
+=======
+image,6
+>>>>>>> 2be68f0df5dee707c9271617618e363e3db9c55e
