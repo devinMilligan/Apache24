@@ -10,10 +10,13 @@
     <?php 
         echo $_GET['image'];
         echo '</br>';
-        echo $_GET['username'];
+        $username = $_GET['username'];
+		
+		echo "</br>";
+		echo "<a href='mainpage.php?username={$username}'>Back to Main Page</a>";
+		
     ?>
     
-    </br>
-    <a href="mainpage.php">Back to Main Page</a>
+
   </body>
 </html>
