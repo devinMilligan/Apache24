@@ -1,7 +1,11 @@
 <?php
-	header( "refresh:10;url=upload.php" );
 	$username = $_GET['username'];
-
+	header( "refresh:5;url=upload.php?username={$username}" );
+	error_reporting(E_ALL ^ E_NOTICE);
+	
+	if(!is_dir("./images/" . $username . "/")){
+		mkdir("./images/" . $username . "/");
+	}
 
     $currentDirectory = getcwd();
     $uploadDirectory = "/images/" . $username . "/";
@@ -76,7 +80,6 @@
 					}
 					if($check==0){
 						$line_count = count($lines);
-						echo $line_count;
 						if($line_count==0){
 							$lines[$row_count] = $key . "," . $numFile;
 							$row_count = $row_count + 1;

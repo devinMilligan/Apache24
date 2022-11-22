@@ -7,13 +7,13 @@
     <title>Upload Images</title>
   </head>
   <body>
-
-  
-  		<h2> Milldev </h2>
-		<h1> Upload Image </h1>
 		
 		<?php
 			$username = $_GET['username'];
+			
+			echo "<h2> {$username} </h2>";
+			echo "<h1> Upload Image </h1>";
+			
 			echo "
 				<form action='fileUploadScript.php?username={$username}' method='post' enctype='multipart/form-data'>
 					Enter keywords seperated by commas:
@@ -24,10 +24,8 @@
 					<input type='submit' name='submit' value='Start Upload'>
 				</form>
 			";
+			echo "<a href='mainpage.php?username={$username}'>Back to Main Page</a>";
 		?>
-		
-		<a href="mainpage.php">Back to Main Page</a>
-
 		
   </body>
 </html>

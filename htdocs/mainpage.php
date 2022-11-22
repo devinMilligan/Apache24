@@ -7,10 +7,11 @@
     <title>Main Page</title>
   </head>
   <body>
-  	<h2> nmorris </h2>
-		<h1> Main Page </h1>
-
-      <?php
+  <?php
+    $username = $_GET['username']; 
+  	echo "<h2> " . $username . " </h2>";
+	echo "<h1> Main Page </h1>";
+	
         $username = $_GET['username']; 
         // Testing
         // $username = 'milldev';
