@@ -18,7 +18,7 @@
 
 		    echo "
           <a href='upload.php?username={$username}'>Upload Image</a></br>
-          <a href='search.php'>Search for Image</a></br>
+          <a href='search.php?username={$username}'>Search for Image</a></br>
           <a href='login.php'>Logout</a></br>
 
           <h2>Image Gallery</h2>
