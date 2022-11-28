@@ -36,6 +36,7 @@ Apache server interrupted...
 [Mon Nov 21 19:43:49.534165 2022] [php:warn] [pid 105652:tid 1324] [client ::1:49991] PHP Warning:  move_uploaded_file(C:\\Apache24\\htdocs/images/hello/0.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\fileUploadScript.php on line 53, referer: http://localhost/upload.php?username=hello
 [Mon Nov 21 19:43:49.534165 2022] [php:warn] [pid 105652:tid 1324] [client ::1:49991] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\\Users\\milli\\AppData\\Local\\Temp\\phpC93E.tmp&quot; to &quot;C:\\Apache24\\htdocs/images/hello/0.png&quot; in C:\\Apache24\\htdocs\\fileUploadScript.php on line 53, referer: http://localhost/upload.php?username=hello
 [Mon Nov 21 19:44:27.505919 2022] [php:notice] [pid 105652:tid 1324] [client ::1:49997] PHP Notice:  Only variables should be passed by reference in C:\\Apache24\\htdocs\\fileUploadScript.php on line 26, referer: http://localhost/upload.php?username=hello
+<<<<<<< HEAD
 [Mon Nov 21 19:54:58.220115 2022] [php:warn] [pid 105652:tid 1300] [client ::1:50430] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/photodetail.php?image=/images/user/0.png&username=user
 [Mon Nov 21 19:54:58.220115 2022] [php:warn] [pid 105652:tid 1300] [client ::1:50430] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/photodetail.php?image=/images/user/0.png&username=user
 [Mon Nov 21 19:57:09.376015 2022] [php:warn] [pid 105652:tid 1324] [client ::1:50464] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 16, referer: http://localhost/mainpage.php?username=user
@@ -49,3 +50,121 @@ Apache server interrupted...
 Apache server interrupted...
 022] [mpm_winnt:notice] [pid 105652:tid 336] AH00364: Child: All worker threads have exited.
 [Mon Nov 28 13:10:20.054151 2022] [mpm_winnt:notice] [pid 98988:tid 368] AH00430: Parent: Child process 105652 exited successfully.
+=======
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 19:11:19.430333 2022] [core:warn] [pid 31332:tid 352] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Nov 27 19:11:19.455758 2022] [mpm_winnt:notice] [pid 31332:tid 352] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Sun Nov 27 19:11:19.455758 2022] [mpm_winnt:notice] [pid 31332:tid 352] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Nov 27 19:11:19.455758 2022] [core:notice] [pid 31332:tid 352] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 27 19:11:19.474711 2022] [mpm_winnt:notice] [pid 31332:tid 352] AH00418: Parent: Created child process 4272
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 19:11:19.802182 2022] [mpm_winnt:notice] [pid 4272:tid 328] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 19:11:45.168758 2022] [php:warn] [pid 4272:tid 1292] [client ::1:59686] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/
+[Sun Nov 27 19:11:45.168758 2022] [php:warn] [pid 4272:tid 1292] [client ::1:59686] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/
+[Sun Nov 27 19:12:00.275649 2022] [php:warn] [pid 4272:tid 1292] [client ::1:59695] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/search.php
+[Sun Nov 27 19:12:00.275649 2022] [php:warn] [pid 4272:tid 1292] [client ::1:59695] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/search.php
+[Sun Nov 27 19:12:09.857712 2022] [mpm_winnt:notice] [pid 31332:tid 352] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+[Sun Nov 27 19:12:11.899974 2022] [mpm_winnt:notice] [pid 4272:tid 328] AH00364: Child: All worker threads have exited.
+[Sun Nov 27 19:12:11.953766 2022] [mpm_winnt:notice] [pid 31332:tid 352] AH00430: Parent: Child process 4272 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 19:28:41.638709 2022] [mpm_winnt:notice] [pid 26528:tid 340] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Sun Nov 27 19:28:41.638709 2022] [mpm_winnt:notice] [pid 26528:tid 340] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Nov 27 19:28:41.638709 2022] [core:notice] [pid 26528:tid 340] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 27 19:28:41.647530 2022] [mpm_winnt:notice] [pid 26528:tid 340] AH00418: Parent: Created child process 28008
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 19:28:41.948115 2022] [mpm_winnt:notice] [pid 28008:tid 328] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 19:43:35.462147 2022] [php:warn] [pid 28008:tid 1296] [client ::1:58974] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/search.php
+[Sun Nov 27 19:43:35.462245 2022] [php:warn] [pid 28008:tid 1296] [client ::1:58974] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/search.php
+[Sun Nov 27 19:58:37.857646 2022] [php:warn] [pid 28008:tid 436] [client ::1:61528] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/login.php
+[Sun Nov 27 19:58:37.857646 2022] [php:warn] [pid 28008:tid 436] [client ::1:61528] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/login.php
+[Sun Nov 27 19:58:39.170695 2022] [php:warn] [pid 28008:tid 436] [client ::1:61528] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 16, referer: http://localhost/mainpage.php
+[Sun Nov 27 19:58:39.170695 2022] [php:warn] [pid 28008:tid 436] [client ::1:61528] PHP Warning:  file(C:\\Apache24\\htdocs/images//index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\search.php on line 24, referer: http://localhost/mainpage.php
+[Sun Nov 27 19:58:39.170695 2022] [php:warn] [pid 28008:tid 436] [client ::1:61528] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\search.php on line 27, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:00:51.862198 2022] [php:warn] [pid 28008:tid 740] [client ::1:61557] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 16, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:00:51.862198 2022] [php:warn] [pid 28008:tid 740] [client ::1:61557] PHP Warning:  file(C:\\Apache24\\htdocs/images/index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\search.php on line 24, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:00:51.862198 2022] [php:warn] [pid 28008:tid 740] [client ::1:61557] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\search.php on line 27, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:01:25.270161 2022] [php:warn] [pid 28008:tid 436] [client ::1:61558] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 16, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:01:25.270699 2022] [php:warn] [pid 28008:tid 436] [client ::1:61558] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\search.php on line 24, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:01:25.270699 2022] [php:warn] [pid 28008:tid 436] [client ::1:61558] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\search.php on line 27, referer: http://localhost/mainpage.php
+[Sun Nov 27 20:01:31.506410 2022] [php:warn] [pid 28008:tid 740] [client ::1:61563] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/search.php
+[Sun Nov 27 20:01:31.506410 2022] [php:warn] [pid 28008:tid 740] [client ::1:61563] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/search.php
+[Sun Nov 27 20:01:47.316805 2022] [php:warn] [pid 28008:tid 436] [client ::1:61564] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 16, referer: http://localhost/mainpage.php?username=ryan
+[Sun Nov 27 20:01:47.317485 2022] [php:warn] [pid 28008:tid 436] [client ::1:61564] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\search.php on line 24, referer: http://localhost/mainpage.php?username=ryan
+[Sun Nov 27 20:01:47.317485 2022] [php:warn] [pid 28008:tid 436] [client ::1:61564] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\search.php on line 27, referer: http://localhost/mainpage.php?username=ryan
+[Sun Nov 27 20:03:39.810765 2022] [php:warn] [pid 28008:tid 740] [client ::1:61578] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/search.php
+[Sun Nov 27 20:03:39.810765 2022] [php:warn] [pid 28008:tid 740] [client ::1:61578] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/search.php
+[Sun Nov 27 20:07:14.161371 2022] [php:warn] [pid 28008:tid 436] [client ::1:61654] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:07:53.537647 2022] [php:warn] [pid 28008:tid 740] [client ::1:61669] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:07:54.823428 2022] [php:warn] [pid 28008:tid 436] [client ::1:61672] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:07:59.437410 2022] [php:warn] [pid 28008:tid 436] [client ::1:61672] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:10:11.665690 2022] [php:warn] [pid 28008:tid 740] [client ::1:61710] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:15:26.905209 2022] [php:warn] [pid 28008:tid 436] [client ::1:50309] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 10, referer: http://localhost/search.php
+[Sun Nov 27 20:15:26.905209 2022] [php:warn] [pid 28008:tid 436] [client ::1:50309] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 13, referer: http://localhost/search.php
+[Sun Nov 27 20:15:39.987144 2022] [mpm_winnt:notice] [pid 26528:tid 340] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 27 20:15:42.000506 2022] [mpm_winnt:notice] [pid 28008:tid 328] AH00364: Child: All worker threads have exited.
+[Sun Nov 27 20:15:42.152622 2022] [mpm_winnt:notice] [pid 26528:tid 340] AH00430: Parent: Child process 28008 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 20:15:46.536031 2022] [mpm_winnt:notice] [pid 34584:tid 348] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Sun Nov 27 20:15:46.536031 2022] [mpm_winnt:notice] [pid 34584:tid 348] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Nov 27 20:15:46.536031 2022] [core:notice] [pid 34584:tid 348] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 27 20:15:46.544327 2022] [mpm_winnt:notice] [pid 34584:tid 348] AH00418: Parent: Created child process 7292
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 20:15:46.841149 2022] [mpm_winnt:notice] [pid 7292:tid 324] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 20:16:07.610090 2022] [php:warn] [pid 7292:tid 1312] [client ::1:51086] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=ryan
+[Sun Nov 27 20:16:22.484837 2022] [php:warn] [pid 7292:tid 1312] [client ::1:51112] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:18:55.152908 2022] [php:warn] [pid 7292:tid 1312] [client ::1:53533] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\search.php on line 12, referer: http://localhost/mainpage.php?username=
+[Sun Nov 27 20:19:06.511671 2022] [php:warn] [pid 7292:tid 1312] [client ::1:53881] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\searchScript.php on line 2, referer: http://localhost/search.php?username=
+[Sun Nov 27 20:19:06.511722 2022] [php:warn] [pid 7292:tid 1312] [client ::1:53881] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 10, referer: http://localhost/search.php?username=
+[Sun Nov 27 20:19:06.511722 2022] [php:warn] [pid 7292:tid 1312] [client ::1:53881] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 13, referer: http://localhost/search.php?username=
+[Sun Nov 27 20:21:31.895458 2022] [mpm_winnt:notice] [pid 34584:tid 348] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Sun Nov 27 20:21:33.915418 2022] [mpm_winnt:notice] [pid 7292:tid 324] AH00364: Child: All worker threads have exited.
+[Sun Nov 27 20:21:33.989211 2022] [mpm_winnt:notice] [pid 34584:tid 348] AH00430: Parent: Child process 7292 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 20:21:35.966869 2022] [mpm_winnt:notice] [pid 2488:tid 304] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Sun Nov 27 20:21:35.966869 2022] [mpm_winnt:notice] [pid 2488:tid 304] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Sun Nov 27 20:21:35.966869 2022] [core:notice] [pid 2488:tid 304] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Sun Nov 27 20:21:35.966869 2022] [mpm_winnt:notice] [pid 2488:tid 304] AH00418: Parent: Created child process 18264
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::1cd0:6fb4:f6e1:f836. Set the 'ServerName' directive globally to suppress this message
+[Sun Nov 27 20:21:36.268489 2022] [mpm_winnt:notice] [pid 18264:tid 360] AH00354: Child: Starting 64 worker threads.
+[Sun Nov 27 20:21:58.898591 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55028] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\searchScript.php on line 2, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:21:58.899169 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55028] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 10, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:21:58.899169 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55028] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 13, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:47.722216 2022] [php:warn] [pid 18264:tid 1328] [client ::1:55781] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\searchScript.php on line 2, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:47.723116 2022] [php:warn] [pid 18264:tid 1328] [client ::1:55781] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 12, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:47.723116 2022] [php:warn] [pid 18264:tid 1328] [client ::1:55781] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:57.808123 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55830] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\searchScript.php on line 2, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:57.808123 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55830] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 12, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:22:57.808123 2022] [php:warn] [pid 18264:tid 1324] [client ::1:55830] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:24:25.043936 2022] [php:warn] [pid 18264:tid 1324] [client ::1:56718] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\searchScript.php on line 2, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:24:25.044441 2022] [php:warn] [pid 18264:tid 1324] [client ::1:56718] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 12, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:24:25.044441 2022] [php:warn] [pid 18264:tid 1324] [client ::1:56718] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:27:11.912665 2022] [php:warn] [pid 18264:tid 1328] [client ::1:58120] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\ryanindex.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 12, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:27:11.913169 2022] [php:warn] [pid 18264:tid 1328] [client ::1:58120] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:27:19.440724 2022] [php:warn] [pid 18264:tid 1324] [client ::1:58121] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\ryanindex.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 12, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:27:19.441063 2022] [php:warn] [pid 18264:tid 1324] [client ::1:58121] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:33:20.128635 2022] [php:warn] [pid 18264:tid 1328] [client ::1:60330] PHP Warning:  Array to string conversion in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:33:20.128635 2022] [php:warn] [pid 18264:tid 1328] [client ::1:60330] PHP Warning:  Array to string conversion in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:33:20.128635 2022] [php:warn] [pid 18264:tid 1328] [client ::1:60330] PHP Warning:  Array to string conversion in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:33:20.128635 2022] [php:warn] [pid 18264:tid 1328] [client ::1:60330] PHP Warning:  Array to string conversion in C:\\Apache24\\htdocs\\searchScript.php on line 15, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:43:07.347385 2022] [php:error] [pid 18264:tid 1328] [client ::1:60618] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\\Apache24\\htdocs\\searchScript.php on line 18, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:45:37.092099 2022] [php:error] [pid 18264:tid 1328] [client ::1:60673] PHP Parse error:  syntax error, unexpected token "}", expecting "," or ";" in C:\\Apache24\\htdocs\\searchScript.php on line 19, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:45:51.044596 2022] [php:warn] [pid 18264:tid 1324] [client ::1:60674] PHP Warning:  Array to string conversion in C:\\Apache24\\htdocs\\searchScript.php on line 18, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:59:00.465639 2022] [php:warn] [pid 18264:tid 1328] [client ::1:62152] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\searchScript.php on line 21, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:59:00.466138 2022] [php:warn] [pid 18264:tid 1328] [client ::1:62152] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\ryan\\.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 22, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:59:00.466138 2022] [php:warn] [pid 18264:tid 1328] [client ::1:62152] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 25, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 20:59:00.466138 2022] [php:warn] [pid 18264:tid 1328] [client ::1:62152] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 26, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 21:18:12.343098 2022] [php:error] [pid 18264:tid 1308] [client ::1:62442] PHP Parse error:  syntax error, unexpected variable "$image", expecting "," or ";" in C:\\Apache24\\htdocs\\searchScript.php on line 27, referer: http://localhost/search.php?username=ryan
+[Sun Nov 27 21:20:22.746620 2022] [mpm_winnt:notice] [pid 2488:tid 304] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+[Sun Nov 27 21:20:52.749927 2022] [mpm_winnt:notice] [pid 2488:tid 304] AH00431: Parent: Forcing termination of child process 18264
+>>>>>>> 67540b3eb5f491baf6740f812dc5769bfe08ef54
