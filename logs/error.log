@@ -4,7 +4,8 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Mon Nov 21 19:05:48.327050 2022] [core:notice] [pid 98988:tid 368] AH00094: Command line: 'httpd -d C:/Apache24'
 [Mon Nov 21 19:05:48.329978 2022] [mpm_winnt:notice] [pid 98988:tid 368] AH00418: Parent: Created child process 105652
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1835:d920:57d6:ea4d. Set the 'ServerName' directive globally to suppress this message
-AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::1835:d920:57d6:ea4d. Set the 'ServerName' directive globally to suppress this message
+Apache server interrupted...
+ reliably determine the server's fully qualified domain name, using fe80::1835:d920:57d6:ea4d. Set the 'ServerName' directive globally to suppress this message
 [Mon Nov 21 19:05:50.619174 2022] [mpm_winnt:notice] [pid 105652:tid 336] AH00354: Child: Starting 64 worker threads.
 [Mon Nov 21 19:08:36.224516 2022] [php:warn] [pid 105652:tid 1300] [client ::1:64750] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 14, referer: http://localhost/
 [Mon Nov 21 19:11:40.192143 2022] [php:warn] [pid 105652:tid 1324] [client ::1:64820] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/search.php
@@ -35,3 +36,16 @@ AH00558: httpd.exe: Could not reliably determine the server's fully qualified do
 [Mon Nov 21 19:43:49.534165 2022] [php:warn] [pid 105652:tid 1324] [client ::1:49991] PHP Warning:  move_uploaded_file(C:\\Apache24\\htdocs/images/hello/0.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\fileUploadScript.php on line 53, referer: http://localhost/upload.php?username=hello
 [Mon Nov 21 19:43:49.534165 2022] [php:warn] [pid 105652:tid 1324] [client ::1:49991] PHP Warning:  move_uploaded_file(): Unable to move &quot;C:\\Users\\milli\\AppData\\Local\\Temp\\phpC93E.tmp&quot; to &quot;C:\\Apache24\\htdocs/images/hello/0.png&quot; in C:\\Apache24\\htdocs\\fileUploadScript.php on line 53, referer: http://localhost/upload.php?username=hello
 [Mon Nov 21 19:44:27.505919 2022] [php:notice] [pid 105652:tid 1324] [client ::1:49997] PHP Notice:  Only variables should be passed by reference in C:\\Apache24\\htdocs\\fileUploadScript.php on line 26, referer: http://localhost/upload.php?username=hello
+[Mon Nov 21 19:54:58.220115 2022] [php:warn] [pid 105652:tid 1300] [client ::1:50430] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 11, referer: http://localhost/photodetail.php?image=/images/user/0.png&username=user
+[Mon Nov 21 19:54:58.220115 2022] [php:warn] [pid 105652:tid 1300] [client ::1:50430] PHP Warning:  Undefined array key "username" in C:\\Apache24\\htdocs\\mainpage.php on line 15, referer: http://localhost/photodetail.php?image=/images/user/0.png&username=user
+[Mon Nov 21 19:57:09.376015 2022] [php:warn] [pid 105652:tid 1324] [client ::1:50464] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 16, referer: http://localhost/mainpage.php?username=user
+[Mon Nov 28 13:10:17.945013 2022] [mpm_winnt:notice] [pid 98988:tid 368] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+Apache server interrupted...
+022] [mpm_winnt:notice] [pid 105652:tid 336] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 13:10:20.054151 2022] [mpm_winnt:notice] [pid 98988:tid 368] AH00430: Parent: Child process 105652 exited successfully.
