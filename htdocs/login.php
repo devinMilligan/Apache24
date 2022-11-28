@@ -104,8 +104,5 @@
       }
     </script>
 
-    <!-- <p>NOTE: Mainpage and usernames will not work unless $username is set manually in the mainpage.php or a username is passed to mainpage through the URL when a user logs in </p> -->
-    <a href="mainpage.php" >Main Page</a>
-
   </body>
 </html>
