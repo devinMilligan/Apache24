@@ -244,3 +244,1157 @@ Apache server interrupted...
 Apache server interrupted...
 [Mon Nov 28 13:15:18.461326 2022] [mpm_winnt:notice] [pid 42232:tid 336] AH00364: Child: All worker threads have exited.
 [Mon Nov 28 13:15:18.499033 2022] [mpm_winnt:notice] [pid 47000:tid 328] AH00430: Parent: Child process 42232 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:00:03.976563 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:00:03.976563 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:00:03.976563 2022] [core:notice] [pid 16172:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:00:03.979563 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00418: Parent: Created child process 8396
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:00:04.197896 2022] [mpm_winnt:notice] [pid 8396:tid 416] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:01:37.155765 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00428: Parent: child process 8396 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:01:37.173883 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:01:37.173883 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:01:37.173883 2022] [core:notice] [pid 16172:tid 424] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:01:37.176924 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00418: Parent: Created child process 14224
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:01:37.384422 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:01:37.385423 2022] [mpm_winnt:notice] [pid 14224:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:01:37.386422 2022] [mpm_winnt:error] [pid 14224:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:01:37.386422 2022] [mpm_winnt:error] [pid 14224:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:01:39.414888 2022] [mpm_winnt:notice] [pid 14224:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:01:39.439093 2022] [mpm_winnt:notice] [pid 16172:tid 424] AH00430: Parent: Child process 14224 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:06:47.959141 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:06:47.959141 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:06:47.959141 2022] [core:notice] [pid 24608:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:06:47.961194 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00418: Parent: Created child process 2984
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:06:48.171903 2022] [mpm_winnt:notice] [pid 2984:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:15:54.825687 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00428: Parent: child process 2984 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:15:54.844691 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:15:54.844691 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:15:54.844691 2022] [core:notice] [pid 24608:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:15:54.846691 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00418: Parent: Created child process 23852
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:15:55.067742 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:15:55.068742 2022] [mpm_winnt:notice] [pid 23852:tid 440] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:15:55.070742 2022] [mpm_winnt:error] [pid 23852:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:15:55.070742 2022] [mpm_winnt:error] [pid 23852:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:15:57.096308 2022] [mpm_winnt:notice] [pid 23852:tid 440] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:15:57.120520 2022] [mpm_winnt:notice] [pid 24608:tid 400] AH00430: Parent: Child process 23852 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:15:58.338822 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:15:58.338822 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:15:58.338822 2022] [core:notice] [pid 24624:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:15:58.340818 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00418: Parent: Created child process 15496
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:15:58.554866 2022] [mpm_winnt:notice] [pid 15496:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:16:01.376332 2022] [php:error] [pid 15496:tid 1324] [client ::1:58387] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:16:02.583449 2022] [php:error] [pid 15496:tid 1324] [client ::1:58387] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:16:15.128888 2022] [php:error] [pid 15496:tid 1324] [client ::1:58389] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:16:26.991920 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00428: Parent: child process 15496 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:16:27.010801 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:16:27.010801 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:16:27.010801 2022] [core:notice] [pid 24624:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:16:27.012802 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00418: Parent: Created child process 2176
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:16:27.225032 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:16:27.226031 2022] [mpm_winnt:notice] [pid 2176:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:16:27.227032 2022] [mpm_winnt:error] [pid 2176:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:16:27.227032 2022] [mpm_winnt:error] [pid 2176:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:16:29.249542 2022] [mpm_winnt:notice] [pid 2176:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:16:29.273050 2022] [mpm_winnt:notice] [pid 24624:tid 404] AH00430: Parent: Child process 2176 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:16:30.332811 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:16:30.332811 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:16:30.332811 2022] [core:notice] [pid 15396:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:16:30.334899 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00418: Parent: Created child process 25088
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:16:30.551536 2022] [mpm_winnt:notice] [pid 25088:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:16:32.837952 2022] [php:warn] [pid 25088:tid 1320] [client ::1:58395] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:17:02.205420 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00428: Parent: child process 25088 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:17:02.223220 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:17:02.223220 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:17:02.223220 2022] [core:notice] [pid 15396:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:17:02.225220 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00418: Parent: Created child process 18320
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:17:02.432724 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:17:02.433724 2022] [mpm_winnt:notice] [pid 18320:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:17:02.435725 2022] [mpm_winnt:error] [pid 18320:tid 1328] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:17:02.435725 2022] [mpm_winnt:error] [pid 18320:tid 1336] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:17:04.450534 2022] [mpm_winnt:notice] [pid 18320:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:17:04.473539 2022] [mpm_winnt:notice] [pid 15396:tid 400] AH00430: Parent: Child process 18320 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:17:05.528319 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:17:05.529319 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:17:05.529319 2022] [core:notice] [pid 7548:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:17:05.531320 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00418: Parent: Created child process 11728
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:17:05.743555 2022] [mpm_winnt:notice] [pid 11728:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:20:23.441216 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00428: Parent: child process 11728 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:20:23.459221 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:20:23.459221 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:20:23.459221 2022] [core:notice] [pid 7548:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:20:23.462223 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00418: Parent: Created child process 2504
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:20:23.673269 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:20:23.674269 2022] [mpm_winnt:notice] [pid 2504:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:20:23.675269 2022] [mpm_winnt:error] [pid 2504:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:20:23.675269 2022] [mpm_winnt:error] [pid 2504:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:20:25.685968 2022] [mpm_winnt:notice] [pid 2504:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:20:25.710546 2022] [mpm_winnt:notice] [pid 7548:tid 400] AH00430: Parent: Child process 2504 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:20:26.862092 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:20:26.862092 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:20:26.862092 2022] [core:notice] [pid 6460:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:20:26.864093 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00418: Parent: Created child process 20384
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:20:27.094144 2022] [mpm_winnt:notice] [pid 20384:tid 440] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:20:29.729315 2022] [php:warn] [pid 20384:tid 1320] [client ::1:58417] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 17, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:20:31.270271 2022] [php:warn] [pid 20384:tid 1320] [client ::1:58417] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 17, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:22:41.356786 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00428: Parent: child process 20384 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:22:41.375790 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:22:41.375790 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:22:41.375790 2022] [core:notice] [pid 6460:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:22:41.377791 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00418: Parent: Created child process 23724
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:22:41.595840 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:22:41.596840 2022] [mpm_winnt:notice] [pid 23724:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:22:41.597841 2022] [mpm_winnt:error] [pid 23724:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:22:41.597841 2022] [mpm_winnt:error] [pid 23724:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:22:43.618417 2022] [mpm_winnt:notice] [pid 23724:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:22:43.641973 2022] [mpm_winnt:notice] [pid 6460:tid 404] AH00430: Parent: Child process 23724 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:22:44.895663 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:22:44.895663 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:22:44.895663 2022] [core:notice] [pid 11668:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:22:44.897627 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00418: Parent: Created child process 21024
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:22:45.111675 2022] [mpm_winnt:notice] [pid 21024:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:24:02.403855 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58458] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\a\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 17, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:24:02.403855 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58458] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 19, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:25:14.055730 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58471] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\a\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 17, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:25:14.055730 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58471] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 19, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:25:42.416349 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58475] PHP Warning:  file(C:\\Apache24\\htdocs\\images\\a\\index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 17, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:25:42.416349 2022] [php:warn] [pid 21024:tid 1320] [client ::1:58475] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\searchScript.php on line 19, referer: http://localhost/search.php?username=a
+[Mon Nov 28 20:28:20.039918 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00428: Parent: child process 21024 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:28:20.058049 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:28:20.058049 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:28:20.058049 2022] [core:notice] [pid 11668:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:28:20.060050 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00418: Parent: Created child process 20204
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:28:20.271261 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:28:20.272261 2022] [mpm_winnt:notice] [pid 20204:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:28:20.273261 2022] [mpm_winnt:error] [pid 20204:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:28:20.273261 2022] [mpm_winnt:error] [pid 20204:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:28:22.284369 2022] [mpm_winnt:notice] [pid 20204:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:28:22.306996 2022] [mpm_winnt:notice] [pid 11668:tid 400] AH00430: Parent: Child process 20204 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:28:23.958434 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:28:23.958434 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:28:23.958434 2022] [core:notice] [pid 7108:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:28:23.960434 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00418: Parent: Created child process 7388
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:28:24.172116 2022] [mpm_winnt:notice] [pid 7388:tid 420] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:28:46.452281 2022] [php:warn] [pid 7388:tid 1320] [client ::1:58540] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:28:46.452281 2022] [php:warn] [pid 7388:tid 1320] [client ::1:58540] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:35:43.562282 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00428: Parent: child process 7388 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:35:43.580386 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:35:43.580386 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:35:43.580386 2022] [core:notice] [pid 7108:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:35:43.582387 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00418: Parent: Created child process 4136
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:35:43.789275 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:35:43.790338 2022] [mpm_winnt:notice] [pid 4136:tid 420] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:35:43.791337 2022] [mpm_winnt:error] [pid 4136:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:35:43.791337 2022] [mpm_winnt:error] [pid 4136:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:35:45.808167 2022] [mpm_winnt:notice] [pid 4136:tid 420] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:35:45.831348 2022] [mpm_winnt:notice] [pid 7108:tid 400] AH00430: Parent: Child process 4136 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:38:40.521076 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:38:40.521076 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:38:40.521076 2022] [core:notice] [pid 21800:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:38:40.523077 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00418: Parent: Created child process 20320
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:38:40.732318 2022] [mpm_winnt:notice] [pid 20320:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:39:53.066521 2022] [php:warn] [pid 20320:tid 1324] [client ::1:58635] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/searchScript.php?username=a
+[Mon Nov 28 20:39:53.066521 2022] [php:warn] [pid 20320:tid 1324] [client ::1:58635] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/searchScript.php?username=a
+[Mon Nov 28 20:40:40.494355 2022] [php:warn] [pid 20320:tid 1324] [client ::1:58644] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:40:40.494355 2022] [php:warn] [pid 20320:tid 1324] [client ::1:58644] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:49:50.145264 2022] [php:warn] [pid 20320:tid 1316] [client ::1:58701] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:49:50.145264 2022] [php:warn] [pid 20320:tid 1316] [client ::1:58701] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:57:36.155732 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00428: Parent: child process 20320 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:57:36.174410 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:57:36.174410 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:57:36.174410 2022] [core:notice] [pid 21800:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:57:36.175474 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00418: Parent: Created child process 19160
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:57:36.385199 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:57:36.386200 2022] [mpm_winnt:notice] [pid 19160:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:57:36.387200 2022] [mpm_winnt:error] [pid 19160:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:57:36.387200 2022] [mpm_winnt:error] [pid 19160:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:57:38.394463 2022] [mpm_winnt:notice] [pid 19160:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:57:38.419480 2022] [mpm_winnt:notice] [pid 21800:tid 428] AH00430: Parent: Child process 19160 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:57:39.661063 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:57:39.661063 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:57:39.661063 2022] [core:notice] [pid 15996:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:57:39.663121 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00418: Parent: Created child process 21156
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:57:39.874293 2022] [mpm_winnt:notice] [pid 21156:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:57:42.898052 2022] [php:warn] [pid 21156:tid 1320] [client ::1:65055] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a
+[Mon Nov 28 20:57:42.898052 2022] [php:warn] [pid 21156:tid 1320] [client ::1:65055] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a
+[Mon Nov 28 20:57:42.898052 2022] [php:warn] [pid 21156:tid 1320] [client ::1:65055] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a
+[Mon Nov 28 20:57:42.899052 2022] [php:warn] [pid 21156:tid 1320] [client ::1:65055] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a
+[Mon Nov 28 20:57:42.899052 2022] [php:warn] [pid 21156:tid 1320] [client ::1:65055] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a
+[Mon Nov 28 20:57:44.718324 2022] [php:error] [pid 21156:tid 1316] [client ::1:65056] PHP Parse error:  syntax error, unexpected token "echo", expecting "," or ";" in C:\\Apache24\\htdocs\\photodetail.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:58:10.763309 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00428: Parent: child process 21156 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:58:10.783039 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:58:10.783039 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:58:10.783039 2022] [core:notice] [pid 15996:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:58:10.785039 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00418: Parent: Created child process 16772
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:58:10.994977 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 20:58:10.995977 2022] [mpm_winnt:notice] [pid 16772:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:58:10.996978 2022] [mpm_winnt:error] [pid 16772:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:58:10.996978 2022] [mpm_winnt:error] [pid 16772:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 20:58:13.011056 2022] [mpm_winnt:notice] [pid 16772:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 20:58:13.034577 2022] [mpm_winnt:notice] [pid 15996:tid 400] AH00430: Parent: Child process 16772 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:58:14.712146 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 20:58:14.712146 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 20:58:14.712146 2022] [core:notice] [pid 23372:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 20:58:14.715198 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00418: Parent: Created child process 5576
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 20:58:14.928014 2022] [mpm_winnt:notice] [pid 5576:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 20:58:16.964334 2022] [php:warn] [pid 5576:tid 1320] [client ::1:65066] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 20:58:16.964334 2022] [php:warn] [pid 5576:tid 1320] [client ::1:65066] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:44.666960 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00428: Parent: child process 5576 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:12:44.685014 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:12:44.685014 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:12:44.685014 2022] [core:notice] [pid 23372:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:12:44.687081 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00418: Parent: Created child process 7880
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:12:44.896085 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:12:44.898085 2022] [mpm_winnt:notice] [pid 7880:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:12:44.899085 2022] [mpm_winnt:error] [pid 7880:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:12:44.899085 2022] [mpm_winnt:error] [pid 7880:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:12:46.912224 2022] [mpm_winnt:notice] [pid 7880:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:12:46.937163 2022] [mpm_winnt:notice] [pid 23372:tid 400] AH00430: Parent: Child process 7880 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:12:48.124459 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:12:48.124459 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:12:48.124459 2022] [core:notice] [pid 3620:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:12:48.127459 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00418: Parent: Created child process 13764
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:12:48.337781 2022] [mpm_winnt:notice] [pid 13764:tid 444] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:12:51.707591 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:51.707591 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:51.707591 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 16, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:51.707591 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined array key "imageCount" in C:\\Apache24\\htdocs\\photodetail.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:51.707591 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 26, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:12:53.102841 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:12:53.103842 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:12:53.103842 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:12:53.103842 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:12:53.103842 2022] [php:warn] [pid 13764:tid 1324] [client ::1:65281] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:13:26.397673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:26.398673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:26.398673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:26.398673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:26.398673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:26.398673 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/upload.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\3.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\4.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:13:30.946667 2022] [php:warn] [pid 13764:tid 1316] [client ::1:65293] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:01.294665 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00428: Parent: child process 13764 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:01.313895 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:36:01.313895 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:36:01.313895 2022] [core:notice] [pid 3620:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:36:01.315896 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00418: Parent: Created child process 19664
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:01.526325 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:36:01.527325 2022] [mpm_winnt:notice] [pid 19664:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:36:01.529374 2022] [mpm_winnt:error] [pid 19664:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:36:01.529374 2022] [mpm_winnt:error] [pid 19664:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:36:03.536209 2022] [mpm_winnt:notice] [pid 19664:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:36:03.559213 2022] [mpm_winnt:notice] [pid 3620:tid 400] AH00430: Parent: Child process 19664 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:09.548841 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:36:09.548841 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:36:09.548841 2022] [core:notice] [pid 23184:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:36:09.550907 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00418: Parent: Created child process 15600
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:09.764626 2022] [mpm_winnt:notice] [pid 15600:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:11.740428 2022] [php:warn] [pid 15600:tid 1324] [client ::1:62455] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/search.php?username=a
+[Mon Nov 28 21:36:12.597514 2022] [php:error] [pid 15600:tid 1316] [client ::1:62456] PHP Parse error:  syntax error, unexpected token ".=" in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:36:34.809083 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00428: Parent: child process 15600 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:34.827564 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:36:34.827564 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:36:34.827564 2022] [core:notice] [pid 23184:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:36:34.829565 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00418: Parent: Created child process 2512
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:35.040549 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:36:35.041549 2022] [mpm_winnt:notice] [pid 2512:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:36:35.042550 2022] [mpm_winnt:error] [pid 2512:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:36:35.042550 2022] [mpm_winnt:error] [pid 2512:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:36:37.062829 2022] [mpm_winnt:notice] [pid 2512:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:36:37.085612 2022] [mpm_winnt:notice] [pid 23184:tid 408] AH00430: Parent: Child process 2512 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:38.527673 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:36:38.527673 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:36:38.527673 2022] [core:notice] [pid 25452:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:36:38.530674 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00418: Parent: Created child process 20404
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:36:38.744451 2022] [mpm_winnt:notice] [pid 20404:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:36:40.597762 2022] [php:warn] [pid 20404:tid 1324] [client ::1:62468] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:36:40.597762 2022] [php:warn] [pid 20404:tid 1324] [client ::1:62468] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:36:40.597762 2022] [php:warn] [pid 20404:tid 1324] [client ::1:62468] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetail.php on line 16, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:36:40.597762 2022] [php:warn] [pid 20404:tid 1324] [client ::1:62468] PHP Warning:  Undefined array key "imageCount" in C:\\Apache24\\htdocs\\photodetail.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:36:40.598762 2022] [php:error] [pid 20404:tid 1324] [client ::1:62468] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\Apache24\\htdocs\\photodetail.php:28\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 28, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:38.423807 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00428: Parent: child process 20404 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:37:38.441934 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:37:38.441934 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:37:38.441934 2022] [core:notice] [pid 25452:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:37:38.443934 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00418: Parent: Created child process 11140
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:37:38.653514 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:37:38.654514 2022] [mpm_winnt:notice] [pid 11140:tid 448] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:37:38.655515 2022] [mpm_winnt:error] [pid 11140:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:37:38.655515 2022] [mpm_winnt:error] [pid 11140:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:37:40.681835 2022] [mpm_winnt:notice] [pid 11140:tid 448] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:37:40.704320 2022] [mpm_winnt:notice] [pid 25452:tid 400] AH00430: Parent: Child process 11140 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:37:41.796310 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:37:41.796310 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:37:41.796310 2022] [core:notice] [pid 5008:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:37:41.798310 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00418: Parent: Created child process 24088
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:37:42.011930 2022] [mpm_winnt:notice] [pid 24088:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:37:43.619227 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:43.619227 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:43.619227 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "imageCount" in C:\\Apache24\\htdocs\\photodetail.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:43.619227 2022] [php:error] [pid 24088:tid 1324] [client ::1:62482] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\Apache24\\htdocs\\photodetail.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:45.191381 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "width" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:45.191381 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "height" in C:\\Apache24\\htdocs\\photodetail.php on line 12, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:45.191381 2022] [php:warn] [pid 24088:tid 1324] [client ::1:62482] PHP Warning:  Undefined array key "imageCount" in C:\\Apache24\\htdocs\\photodetail.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:37:45.191381 2022] [php:error] [pid 24088:tid 1324] [client ::1:62482] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\Apache24\\htdocs\\photodetail.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:38:05.841603 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00428: Parent: child process 24088 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:38:05.859728 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:38:05.859728 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:38:05.859728 2022] [core:notice] [pid 5008:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:38:05.861727 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00418: Parent: Created child process 20520
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:38:06.070845 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:38:06.071846 2022] [mpm_winnt:notice] [pid 20520:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:38:06.072899 2022] [mpm_winnt:error] [pid 20520:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:38:06.072899 2022] [mpm_winnt:error] [pid 20520:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:38:08.076637 2022] [mpm_winnt:notice] [pid 20520:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:38:08.103108 2022] [mpm_winnt:notice] [pid 5008:tid 408] AH00430: Parent: Child process 20520 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:38:09.234813 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:38:09.234813 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:38:09.234813 2022] [core:notice] [pid 11624:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:38:09.236813 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00418: Parent: Created child process 13760
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:38:09.550746 2022] [mpm_winnt:notice] [pid 13760:tid 416] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:38:11.220564 2022] [php:warn] [pid 13760:tid 1324] [client ::1:62492] PHP Warning:  Undefined array key "imageCount" in C:\\Apache24\\htdocs\\photodetail.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:38:11.220564 2022] [php:error] [pid 13760:tid 1324] [client ::1:62492] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\Apache24\\htdocs\\photodetail.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:39:44.080969 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00428: Parent: child process 13760 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:39:44.098254 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:39:44.098254 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:39:44.098254 2022] [core:notice] [pid 11624:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:39:44.101324 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00418: Parent: Created child process 7944
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:39:44.307904 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:39:44.308905 2022] [mpm_winnt:notice] [pid 7944:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:39:44.309904 2022] [mpm_winnt:error] [pid 7944:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:39:44.309904 2022] [mpm_winnt:error] [pid 7944:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:39:46.336840 2022] [mpm_winnt:notice] [pid 7944:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:39:46.358976 2022] [mpm_winnt:notice] [pid 11624:tid 400] AH00430: Parent: Child process 7944 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:39:47.327574 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:39:47.327574 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:39:47.328574 2022] [core:notice] [pid 15072:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:39:47.330575 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00418: Parent: Created child process 10252
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:39:47.542010 2022] [mpm_winnt:notice] [pid 10252:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:39:49.760647 2022] [php:error] [pid 10252:tid 1324] [client ::1:62516] PHP Fatal error:  Uncaught Error: Undefined constant "i" in C:\\Apache24\\htdocs\\photodetail.php:29\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:44:18.222424 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00428: Parent: child process 10252 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:44:18.241487 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:44:18.241487 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:44:18.241487 2022] [core:notice] [pid 15072:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:44:18.243552 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00418: Parent: Created child process 15600
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:44:18.460747 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:44:18.460747 2022] [mpm_winnt:notice] [pid 15600:tid 432] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:44:18.462747 2022] [mpm_winnt:error] [pid 15600:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:44:18.462747 2022] [mpm_winnt:error] [pid 15600:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:44:20.477696 2022] [mpm_winnt:notice] [pid 15600:tid 432] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:44:20.500198 2022] [mpm_winnt:notice] [pid 15072:tid 400] AH00430: Parent: Child process 15600 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:44:22.485009 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:44:22.485009 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:44:22.485009 2022] [core:notice] [pid 5844:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:44:22.488010 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00418: Parent: Created child process 15724
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:44:22.702672 2022] [mpm_winnt:notice] [pid 15724:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:45:27.914819 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62753] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:27.914819 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62753] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:27.914819 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62753] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:27.914819 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62753] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:27.914819 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62753] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:53.790194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:53.790194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:53.790194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:53.791194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:53.791194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:53.791194 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:45:55.640956 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:55.640956 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:55.640956 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:55.640956 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:45:55.640956 2022] [php:warn] [pid 15724:tid 1320] [client ::1:62761] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:47:25.401005 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00428: Parent: child process 15724 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:47:25.420010 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:47:25.420010 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:47:25.420010 2022] [core:notice] [pid 5844:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:47:25.422010 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00418: Parent: Created child process 20484
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:47:25.728275 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:47:25.729274 2022] [mpm_winnt:notice] [pid 20484:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:47:25.730275 2022] [mpm_winnt:error] [pid 20484:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:47:25.730275 2022] [mpm_winnt:error] [pid 20484:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:47:27.745448 2022] [mpm_winnt:notice] [pid 20484:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:47:27.771256 2022] [mpm_winnt:notice] [pid 5844:tid 400] AH00430: Parent: Child process 20484 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:47:29.193657 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:47:29.193657 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:47:29.194657 2022] [core:notice] [pid 24228:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:47:29.196657 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00418: Parent: Created child process 8488
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:47:29.409567 2022] [mpm_winnt:notice] [pid 8488:tid 424] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:35.306238 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:47:36.235822 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:47:36.235822 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:47:36.235822 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:47:36.235822 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:47:36.235822 2022] [php:warn] [pid 8488:tid 1324] [client ::1:62798] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:23.305499 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00428: Parent: child process 8488 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:48:23.324503 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:48:23.324503 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:48:23.324503 2022] [core:notice] [pid 24228:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:48:23.327504 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00418: Parent: Created child process 17156
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:48:23.547553 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:48:23.548553 2022] [mpm_winnt:notice] [pid 17156:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:48:23.549553 2022] [mpm_winnt:error] [pid 17156:tid 540] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:48:23.549553 2022] [mpm_winnt:error] [pid 17156:tid 544] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:48:25.564563 2022] [mpm_winnt:notice] [pid 17156:tid 428] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:48:25.589561 2022] [mpm_winnt:notice] [pid 24228:tid 440] AH00430: Parent: Child process 17156 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:48:26.848783 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:48:26.848783 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:48:26.848783 2022] [core:notice] [pid 4184:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:48:26.850784 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00418: Parent: Created child process 1736
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:48:27.065186 2022] [mpm_winnt:notice] [pid 1736:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:48:28.951578 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:28.951578 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:28.951578 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:28.951578 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:28.951578 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:31.229173 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/0.jpg&username=a&imageNum=
+[Mon Nov 28 21:48:32.074399 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:32.074399 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:32.074399 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:32.074399 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:48:32.074399 2022] [php:warn] [pid 1736:tid 1320] [client ::1:62807] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:49:30.124643 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00428: Parent: child process 1736 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:49:30.143646 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:49:30.143646 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:49:30.143646 2022] [core:notice] [pid 4184:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:49:30.145647 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00418: Parent: Created child process 24468
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:49:30.353274 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:49:30.354274 2022] [mpm_winnt:notice] [pid 24468:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:49:30.355275 2022] [mpm_winnt:error] [pid 24468:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:49:30.355275 2022] [mpm_winnt:error] [pid 24468:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:49:32.372723 2022] [mpm_winnt:notice] [pid 24468:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:49:32.395379 2022] [mpm_winnt:notice] [pid 4184:tid 404] AH00430: Parent: Child process 24468 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:49:35.016208 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:49:35.016208 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:49:35.016208 2022] [core:notice] [pid 17288:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:49:35.018209 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00418: Parent: Created child process 5196
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:49:35.228255 2022] [mpm_winnt:notice] [pid 5196:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:49:37.538516 2022] [php:warn] [pid 5196:tid 1324] [client ::1:62833] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:49:37.538516 2022] [php:warn] [pid 5196:tid 1324] [client ::1:62833] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:49:37.538516 2022] [php:warn] [pid 5196:tid 1324] [client ::1:62833] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:49:37.538516 2022] [php:warn] [pid 5196:tid 1324] [client ::1:62833] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:49:37.538516 2022] [php:warn] [pid 5196:tid 1324] [client ::1:62833] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:25.446052 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00428: Parent: child process 5196 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:50:25.463076 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:50:25.463076 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:50:25.463076 2022] [core:notice] [pid 17288:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:50:25.466077 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00418: Parent: Created child process 21356
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:50:25.676068 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:50:25.677069 2022] [mpm_winnt:notice] [pid 21356:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:50:25.678069 2022] [mpm_winnt:error] [pid 21356:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:50:25.678069 2022] [mpm_winnt:error] [pid 21356:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:50:27.698251 2022] [mpm_winnt:notice] [pid 21356:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:50:27.721256 2022] [mpm_winnt:notice] [pid 17288:tid 400] AH00430: Parent: Child process 21356 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:50:28.786719 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:50:28.786719 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:50:28.786719 2022] [core:notice] [pid 23088:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:50:28.788719 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00418: Parent: Created child process 20024
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:50:29.005768 2022] [mpm_winnt:notice] [pid 20024:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:50:31.939485 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:31.939485 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:31.939485 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:31.939485 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:31.939485 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:33.315695 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:33.315695 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:33.315695 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:33.315695 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:50:33.315695 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62843] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:33.653231 2022] [php:warn] [pid 20024:tid 1324] [client ::1:62854] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:35.273467 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:36.586039 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:36.586039 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:36.586039 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:36.586039 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:36.586039 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:52:39.731110 2022] [php:warn] [pid 20024:tid 1308] [client ::1:62856] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:13.302408 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00428: Parent: child process 20024 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:13.320550 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:55:13.320550 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:55:13.320550 2022] [core:notice] [pid 23088:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:55:13.322550 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00418: Parent: Created child process 700
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:13.640950 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:55:13.641951 2022] [mpm_winnt:notice] [pid 700:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:55:13.642951 2022] [mpm_winnt:error] [pid 700:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:55:13.642951 2022] [mpm_winnt:error] [pid 700:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:55:15.672245 2022] [mpm_winnt:notice] [pid 700:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:55:15.697320 2022] [mpm_winnt:notice] [pid 23088:tid 400] AH00430: Parent: Child process 700 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:17.475441 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:55:17.475441 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:55:17.475441 2022] [core:notice] [pid 17204:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:55:17.478441 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00418: Parent: Created child process 8448
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:17.695214 2022] [mpm_winnt:notice] [pid 8448:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:55:19.969314 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:19.970315 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:19.970315 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:19.970315 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:19.970315 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:19.970315 2022] [php:warn] [pid 8448:tid 1324] [client ::1:62883] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 46, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:29.923831 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00428: Parent: child process 8448 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:29.943730 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:55:29.943730 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:55:29.943730 2022] [core:notice] [pid 17204:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:55:29.945730 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00418: Parent: Created child process 4064
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:30.157585 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:55:30.159585 2022] [mpm_winnt:notice] [pid 4064:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:55:30.160585 2022] [mpm_winnt:error] [pid 4064:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:55:30.160585 2022] [mpm_winnt:error] [pid 4064:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:55:32.168418 2022] [mpm_winnt:notice] [pid 4064:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:55:32.191423 2022] [mpm_winnt:notice] [pid 17204:tid 408] AH00430: Parent: Child process 4064 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:33.144584 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:55:33.145584 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:55:33.145584 2022] [core:notice] [pid 2176:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:55:33.147585 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00418: Parent: Created child process 13676
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:55:33.359632 2022] [mpm_winnt:notice] [pid 13676:tid 424] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:55:35.335017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:35.335017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:35.336017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:35.336017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:35.336017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:55:35.336017 2022] [php:warn] [pid 13676:tid 1324] [client ::1:62889] PHP Warning:  Undefined variable $imageNum in C:\\Apache24\\htdocs\\mainpage.php on line 41, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:56:14.135914 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00428: Parent: child process 13676 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:14.153917 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:56:14.153917 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:56:14.153917 2022] [core:notice] [pid 2176:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:56:14.155917 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00418: Parent: Created child process 20420
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:14.362964 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:56:14.363964 2022] [mpm_winnt:notice] [pid 20420:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:56:14.364964 2022] [mpm_winnt:error] [pid 20420:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:56:14.364964 2022] [mpm_winnt:error] [pid 20420:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:56:16.381329 2022] [mpm_winnt:notice] [pid 20420:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:56:16.404819 2022] [mpm_winnt:notice] [pid 2176:tid 400] AH00430: Parent: Child process 20420 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:17.531887 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:56:17.531887 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:56:17.531887 2022] [core:notice] [pid 21500:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:56:17.533888 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00418: Parent: Created child process 7916
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:17.746935 2022] [mpm_winnt:notice] [pid 7916:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:56:20.001498 2022] [php:warn] [pid 7916:tid 1320] [client ::1:62903] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 45, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:56:50.820990 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00428: Parent: child process 7916 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:50.838441 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:56:50.838441 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:56:50.838441 2022] [core:notice] [pid 21500:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:56:50.840441 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00418: Parent: Created child process 11180
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:51.051490 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:56:51.052490 2022] [mpm_winnt:notice] [pid 11180:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:56:51.053490 2022] [mpm_winnt:error] [pid 11180:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:56:51.053490 2022] [mpm_winnt:error] [pid 11180:tid 1344] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:56:53.073897 2022] [mpm_winnt:notice] [pid 11180:tid 408] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:56:53.096944 2022] [mpm_winnt:notice] [pid 21500:tid 400] AH00430: Parent: Child process 11180 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:55.051797 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:56:55.052797 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:56:55.052797 2022] [core:notice] [pid 4624:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:56:55.054798 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00418: Parent: Created child process 22644
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:56:55.267846 2022] [mpm_winnt:notice] [pid 22644:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:56:56.874213 2022] [php:warn] [pid 22644:tid 1328] [client ::1:62915] PHP Warning:  Undefined variable $imageCount in C:\\Apache24\\htdocs\\mainpage.php on line 38, referer: http://localhost/photodetail.php?image=/images/a/3.jpg&username=a&imageNum=
+[Mon Nov 28 21:57:16.863816 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00428: Parent: child process 22644 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:57:16.883871 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:57:16.883871 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:57:16.883871 2022] [core:notice] [pid 4624:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:57:16.885873 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00418: Parent: Created child process 3484
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:57:17.200982 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:57:17.201982 2022] [mpm_winnt:notice] [pid 3484:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:57:17.202982 2022] [mpm_winnt:error] [pid 3484:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:57:17.202982 2022] [mpm_winnt:error] [pid 3484:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:57:19.229648 2022] [mpm_winnt:notice] [pid 3484:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:57:19.253133 2022] [mpm_winnt:notice] [pid 4624:tid 432] AH00430: Parent: Child process 3484 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:57:20.025784 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:57:20.025784 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:57:20.025784 2022] [core:notice] [pid 24348:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:57:20.027785 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00418: Parent: Created child process 1480
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:57:20.253835 2022] [mpm_winnt:notice] [pid 1480:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:58:02.234359 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00428: Parent: child process 1480 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:02.252998 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:58:02.252998 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:58:02.252998 2022] [core:notice] [pid 24348:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:58:02.254999 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00418: Parent: Created child process 9644
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:02.464181 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:58:02.465181 2022] [mpm_winnt:notice] [pid 9644:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:58:02.466181 2022] [mpm_winnt:error] [pid 9644:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:58:02.466181 2022] [mpm_winnt:error] [pid 9644:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:58:04.473638 2022] [mpm_winnt:notice] [pid 9644:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:58:04.496644 2022] [mpm_winnt:notice] [pid 24348:tid 400] AH00430: Parent: Child process 9644 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:05.591466 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:58:05.591466 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:58:05.591466 2022] [core:notice] [pid 9656:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:58:05.594467 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00418: Parent: Created child process 6384
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:05.817519 2022] [mpm_winnt:notice] [pid 6384:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:58:12.439465 2022] [php:warn] [pid 6384:tid 1324] [client ::1:62941] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:12.439465 2022] [php:warn] [pid 6384:tid 1324] [client ::1:62941] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:12.439465 2022] [php:warn] [pid 6384:tid 1324] [client ::1:62941] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:12.439465 2022] [php:warn] [pid 6384:tid 1324] [client ::1:62941] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:12.439465 2022] [php:warn] [pid 6384:tid 1324] [client ::1:62941] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:53.320342 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00428: Parent: child process 6384 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:53.338347 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:58:53.338347 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:58:53.338347 2022] [core:notice] [pid 9656:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:58:53.341347 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00418: Parent: Created child process 14520
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:53.550293 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 21:58:53.551293 2022] [mpm_winnt:notice] [pid 14520:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:58:53.552293 2022] [mpm_winnt:error] [pid 14520:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:58:53.552293 2022] [mpm_winnt:error] [pid 14520:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 21:58:55.569465 2022] [mpm_winnt:notice] [pid 14520:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 21:58:55.594681 2022] [mpm_winnt:notice] [pid 9656:tid 400] AH00430: Parent: Child process 14520 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:56.639017 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 21:58:56.639017 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 21:58:56.639017 2022] [core:notice] [pid 14480:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 21:58:56.641017 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00418: Parent: Created child process 724
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 21:58:56.853064 2022] [mpm_winnt:notice] [pid 724:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 21:58:59.817154 2022] [php:warn] [pid 724:tid 1324] [client ::1:62955] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:59.817154 2022] [php:warn] [pid 724:tid 1324] [client ::1:62955] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:59.817154 2022] [php:warn] [pid 724:tid 1324] [client ::1:62955] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:59.817154 2022] [php:warn] [pid 724:tid 1324] [client ::1:62955] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 21:58:59.817154 2022] [php:warn] [pid 724:tid 1324] [client ::1:62955] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:13.284576 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00428: Parent: child process 724 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:00:13.301787 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:00:13.301787 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:00:13.301787 2022] [core:notice] [pid 14480:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:00:13.303788 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00418: Parent: Created child process 15660
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:00:13.509834 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:00:13.510834 2022] [mpm_winnt:notice] [pid 15660:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:00:13.511834 2022] [mpm_winnt:error] [pid 15660:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:00:13.511834 2022] [mpm_winnt:error] [pid 15660:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:00:15.522744 2022] [mpm_winnt:notice] [pid 15660:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:00:15.545618 2022] [mpm_winnt:notice] [pid 14480:tid 400] AH00430: Parent: Child process 15660 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:00:17.266715 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:00:17.266715 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:00:17.266715 2022] [core:notice] [pid 16148:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:00:17.268715 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00418: Parent: Created child process 20132
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:00:17.478456 2022] [mpm_winnt:notice] [pid 20132:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:00:19.928286 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:19.928286 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:19.928286 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:19.928286 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:19.928286 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:22.525685 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 1 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:22.525685 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:22.525685 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:22.525685 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 2 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:00:22.525685 2022] [php:warn] [pid 20132:tid 1324] [client ::1:62972] PHP Warning:  Undefined array key 3 in C:\\Apache24\\htdocs\\photodetail.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Nov 28 22:01:41.783429 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00428: Parent: child process 20132 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:01:41.802433 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:01:41.802433 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:01:41.802433 2022] [core:notice] [pid 16148:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:01:41.804433 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00418: Parent: Created child process 18444
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:01:42.033484 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:01:42.034485 2022] [mpm_winnt:notice] [pid 18444:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:01:42.035485 2022] [mpm_winnt:error] [pid 18444:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:01:42.035485 2022] [mpm_winnt:error] [pid 18444:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:01:44.051260 2022] [mpm_winnt:notice] [pid 18444:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:01:44.074840 2022] [mpm_winnt:notice] [pid 16148:tid 400] AH00430: Parent: Child process 18444 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:01:45.304191 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:01:45.304191 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:01:45.304191 2022] [core:notice] [pid 1480:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:01:45.306191 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00418: Parent: Created child process 24292
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:01:45.516239 2022] [mpm_winnt:notice] [pid 24292:tid 432] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:05:45.190017 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00428: Parent: child process 24292 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:05:45.208439 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:05:45.208439 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:05:45.208439 2022] [core:notice] [pid 1480:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:05:45.210441 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00418: Parent: Created child process 17460
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:05:45.419487 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:05:45.420487 2022] [mpm_winnt:notice] [pid 17460:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:05:45.421487 2022] [mpm_winnt:error] [pid 17460:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:05:45.421487 2022] [mpm_winnt:error] [pid 17460:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:05:47.445969 2022] [mpm_winnt:notice] [pid 17460:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:05:47.468975 2022] [mpm_winnt:notice] [pid 1480:tid 440] AH00430: Parent: Child process 17460 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:05:48.447204 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:05:48.448204 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:05:48.448204 2022] [core:notice] [pid 12124:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:05:48.450205 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00418: Parent: Created child process 19108
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:05:48.663253 2022] [mpm_winnt:notice] [pid 19108:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:09:14.057299 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00428: Parent: child process 19108 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:14.077303 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:09:14.077303 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:09:14.077303 2022] [core:notice] [pid 12124:tid 404] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:09:14.079304 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00418: Parent: Created child process 20676
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:14.308258 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:09:14.309258 2022] [mpm_winnt:notice] [pid 20676:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:09:14.311259 2022] [mpm_winnt:error] [pid 20676:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:09:14.311259 2022] [mpm_winnt:error] [pid 20676:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:09:16.317025 2022] [mpm_winnt:notice] [pid 20676:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:09:16.341719 2022] [mpm_winnt:notice] [pid 12124:tid 404] AH00430: Parent: Child process 20676 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:17.024634 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:09:17.024634 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:09:17.024634 2022] [core:notice] [pid 21520:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:09:17.027692 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00418: Parent: Created child process 12192
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:17.237802 2022] [mpm_winnt:notice] [pid 12192:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:09:20.064792 2022] [php:warn] [pid 12192:tid 1320] [client ::1:54144] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:20.064792 2022] [php:warn] [pid 12192:tid 1320] [client ::1:54144] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:20.064792 2022] [php:warn] [pid 12192:tid 1320] [client ::1:54144] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:20.065792 2022] [php:warn] [pid 12192:tid 1320] [client ::1:54144] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:20.065792 2022] [php:warn] [pid 12192:tid 1320] [client ::1:54144] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:31.756130 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00428: Parent: child process 12192 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:31.774135 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:09:31.774135 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:09:31.774135 2022] [core:notice] [pid 21520:tid 412] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:09:31.776135 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00418: Parent: Created child process 15752
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:31.987444 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:09:31.988444 2022] [mpm_winnt:notice] [pid 15752:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:09:31.989447 2022] [mpm_winnt:error] [pid 15752:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:09:31.989447 2022] [mpm_winnt:error] [pid 15752:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:09:33.997891 2022] [mpm_winnt:notice] [pid 15752:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:09:34.021715 2022] [mpm_winnt:notice] [pid 21520:tid 412] AH00430: Parent: Child process 15752 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:34.335554 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:09:34.335554 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:09:34.335554 2022] [core:notice] [pid 9516:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:09:34.337554 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00418: Parent: Created child process 25052
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:09:34.552413 2022] [mpm_winnt:notice] [pid 25052:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:09:36.443627 2022] [php:warn] [pid 25052:tid 1324] [client ::1:54149] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:36.444627 2022] [php:warn] [pid 25052:tid 1324] [client ::1:54149] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:36.444627 2022] [php:warn] [pid 25052:tid 1324] [client ::1:54149] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:36.444627 2022] [php:warn] [pid 25052:tid 1324] [client ::1:54149] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:09:36.444627 2022] [php:warn] [pid 25052:tid 1324] [client ::1:54149] PHP Warning:  Attempt to read property "getElementsByTagName" on string in C:\\Apache24\\htdocs\\mainpage.php on line 40, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:12:45.689020 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00428: Parent: child process 25052 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:12:45.708024 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:12:45.708024 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:12:45.708024 2022] [core:notice] [pid 9516:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:12:45.711025 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00418: Parent: Created child process 20268
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:12:45.938076 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:12:45.939076 2022] [mpm_winnt:notice] [pid 20268:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:12:45.940076 2022] [mpm_winnt:error] [pid 20268:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:12:45.940076 2022] [mpm_winnt:error] [pid 20268:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:12:47.957607 2022] [mpm_winnt:notice] [pid 20268:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:12:47.980971 2022] [mpm_winnt:notice] [pid 9516:tid 416] AH00430: Parent: Child process 20268 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:12:48.655451 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:12:48.655451 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:12:48.655451 2022] [core:notice] [pid 9184:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:12:48.657452 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00418: Parent: Created child process 9328
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:12:48.869499 2022] [mpm_winnt:notice] [pid 9328:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:04.105445 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00428: Parent: child process 9328 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:04.123450 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:04.123450 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:04.123450 2022] [core:notice] [pid 9184:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:04.125449 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00418: Parent: Created child process 18676
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:04.335128 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:14:04.336129 2022] [mpm_winnt:notice] [pid 18676:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:04.337129 2022] [mpm_winnt:error] [pid 18676:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:04.337129 2022] [mpm_winnt:error] [pid 18676:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:06.356723 2022] [mpm_winnt:notice] [pid 18676:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:14:06.379748 2022] [mpm_winnt:notice] [pid 9184:tid 400] AH00430: Parent: Child process 18676 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:07.061982 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:07.061982 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:07.061982 2022] [core:notice] [pid 15912:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:07.063982 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00418: Parent: Created child process 11196
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:07.285031 2022] [mpm_winnt:notice] [pid 11196:tid 448] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:30.761775 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00428: Parent: child process 11196 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:30.779496 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:30.779496 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:30.779496 2022] [core:notice] [pid 15912:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:30.781497 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00418: Parent: Created child process 14144
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:30.989857 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:14:30.990857 2022] [mpm_winnt:notice] [pid 14144:tid 456] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:30.991858 2022] [mpm_winnt:error] [pid 14144:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:30.991858 2022] [mpm_winnt:error] [pid 14144:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:33.002073 2022] [mpm_winnt:notice] [pid 14144:tid 456] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:14:33.025399 2022] [mpm_winnt:notice] [pid 15912:tid 400] AH00430: Parent: Child process 14144 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:33.938793 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:33.938793 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:33.938793 2022] [core:notice] [pid 15156:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:33.940793 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00418: Parent: Created child process 12804
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:34.271868 2022] [mpm_winnt:notice] [pid 12804:tid 436] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:52.896564 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00428: Parent: child process 12804 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:52.915448 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:52.915448 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:52.915448 2022] [core:notice] [pid 15156:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:52.917448 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00418: Parent: Created child process 24352
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:53.124936 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:14:53.125936 2022] [mpm_winnt:notice] [pid 24352:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:53.126936 2022] [mpm_winnt:error] [pid 24352:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:53.126936 2022] [mpm_winnt:error] [pid 24352:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:14:55.155158 2022] [mpm_winnt:notice] [pid 24352:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:14:55.178170 2022] [mpm_winnt:notice] [pid 15156:tid 400] AH00430: Parent: Child process 24352 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:56.168517 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:14:56.168517 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:14:56.168517 2022] [core:notice] [pid 14636:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:14:56.170516 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00418: Parent: Created child process 2600
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:14:56.389305 2022] [mpm_winnt:notice] [pid 2600:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:14:58.863109 2022] [php:error] [pid 2600:tid 1324] [client ::1:54213] PHP Fatal error:  Uncaught ArgumentCountError: basename() expects at most 2 arguments, 3 given in C:\\Apache24\\htdocs\\mainpage.php:38\nStack trace:\n#0 C:\\Apache24\\htdocs\\mainpage.php(38): basename('/images/a/0.jpg', '.jpg', '.png')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\mainpage.php on line 38, referer: http://localhost/photodetail.php?image=/images/a/2.jpg&username=a&imageNum=1
+[Mon Nov 28 22:16:50.518574 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00428: Parent: child process 2600 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:16:50.537578 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:16:50.537578 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:16:50.537578 2022] [core:notice] [pid 14636:tid 408] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:16:50.540579 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00418: Parent: Created child process 20140
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:16:50.884698 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:16:50.885698 2022] [mpm_winnt:notice] [pid 20140:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:16:50.887699 2022] [mpm_winnt:error] [pid 20140:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:16:50.887699 2022] [mpm_winnt:error] [pid 20140:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:16:52.909032 2022] [mpm_winnt:notice] [pid 20140:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:16:52.933038 2022] [mpm_winnt:notice] [pid 14636:tid 408] AH00430: Parent: Child process 20140 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:16:54.992157 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:16:54.992157 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:16:54.992157 2022] [core:notice] [pid 18624:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:16:54.994158 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00418: Parent: Created child process 12260
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:16:55.213207 2022] [mpm_winnt:notice] [pid 12260:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:17:43.282418 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00428: Parent: child process 12260 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:17:43.301423 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:17:43.301423 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:17:43.301423 2022] [core:notice] [pid 18624:tid 420] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:17:43.303422 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00418: Parent: Created child process 3352
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:17:43.521573 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:17:43.522573 2022] [mpm_winnt:notice] [pid 3352:tid 424] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:17:43.523574 2022] [mpm_winnt:error] [pid 3352:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:17:43.523574 2022] [mpm_winnt:error] [pid 3352:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:17:45.549634 2022] [mpm_winnt:notice] [pid 3352:tid 424] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:17:45.572640 2022] [mpm_winnt:notice] [pid 18624:tid 420] AH00430: Parent: Child process 3352 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:17:57.567594 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:17:57.567594 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:17:57.567594 2022] [core:notice] [pid 6084:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:17:57.569596 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00418: Parent: Created child process 21896
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:17:57.784767 2022] [mpm_winnt:notice] [pid 21896:tid 420] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:18:53.260654 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00428: Parent: child process 21896 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:18:53.280659 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:18:53.280659 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:18:53.280659 2022] [core:notice] [pid 6084:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:18:53.282659 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00418: Parent: Created child process 2764
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:18:53.490706 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:18:53.491706 2022] [mpm_winnt:notice] [pid 2764:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:18:53.492705 2022] [mpm_winnt:error] [pid 2764:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:18:53.492705 2022] [mpm_winnt:error] [pid 2764:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:18:55.510010 2022] [mpm_winnt:notice] [pid 2764:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:18:55.534015 2022] [mpm_winnt:notice] [pid 6084:tid 400] AH00430: Parent: Child process 2764 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:23:19.737352 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:23:19.737352 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:23:19.737352 2022] [core:notice] [pid 6056:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:23:19.739132 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00418: Parent: Created child process 2012
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:23:19.957345 2022] [mpm_winnt:notice] [pid 2012:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\3.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\4.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:26.105684 2022] [php:warn] [pid 2012:tid 1316] [client ::1:54353] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:34.373037 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54354] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\2.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:34.373037 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54354] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:34.373037 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54354] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:56.989878 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54355] PHP Warning:  getimagesize(C:\\Apache24\\htdocs\\images\\a\\3.png): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\searchScript.php on line 28, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:56.990879 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54355] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 31, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:23:56.990879 2022] [php:warn] [pid 2012:tid 1324] [client ::1:54355] PHP Warning:  Trying to access array offset on value of type bool in C:\\Apache24\\htdocs\\searchScript.php on line 32, referer: http://localhost/search.php?username=a
+[Mon Nov 28 22:24:24.151648 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00428: Parent: child process 2012 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:24:24.170652 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Nov 28 22:24:24.170652 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Nov 28 22:24:24.170652 2022] [core:notice] [pid 6056:tid 432] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Nov 28 22:24:24.172652 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00418: Parent: Created child process 23228
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Nov 28 22:24:24.382700 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Nov 28 22:24:24.384700 2022] [mpm_winnt:notice] [pid 23228:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Nov 28 22:24:24.385700 2022] [mpm_winnt:error] [pid 23228:tid 1332] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:24:24.385700 2022] [mpm_winnt:error] [pid 23228:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Nov 28 22:24:26.413203 2022] [mpm_winnt:notice] [pid 23228:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Nov 28 22:24:26.436622 2022] [mpm_winnt:notice] [pid 6056:tid 432] AH00430: Parent: Child process 23228 exited successfully.
