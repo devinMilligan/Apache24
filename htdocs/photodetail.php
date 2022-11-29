@@ -9,9 +9,10 @@
   <body>
     <?php 
         echo $_GET['image'];
+        echo "<img src='{$_GET['image']}' width='{$_GET['width']}' height='{$_GET['height']}'/>";
         echo '</br>';
         $username = $_GET['username'];
-		
+        
 		echo "</br>";
 		echo "<a href='mainpage.php?username={$username}'>Back to Main Page</a>";
 		
