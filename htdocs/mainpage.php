@@ -28,16 +28,15 @@
         $imageDirectory = "/images/" . $username . "/";
 
         $images = glob($currentDirectory.$imageDirectory."*.{jpeg,jpg,png}", GLOB_BRACE);
-
         foreach($images as $image) {
             $imageSize = getimagesize($image);
             $image = str_replace($currentDirectory, '', $image);
 
             $width = $imageSize[0] / 2;
             $height = $imageSize[1] / 2;
-
+            $fileNum = pathinfo($image, PATHINFO_FILENAME);
             echo " 
-                <a href='photodetail.php?image={$image}&username={$username}'>
+                <a href='photodetail.php?image={$image}&username={$username}&imageNum={$fileNum}'>
                     <img src='{$image}' width='{$width}' height='{$height}' />
                 </a>
                 <br />";
