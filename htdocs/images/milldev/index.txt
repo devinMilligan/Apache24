@@ -14,3 +14,4 @@ this,7
 pic,7
 fun,7
 bad,8,9
+key,10
