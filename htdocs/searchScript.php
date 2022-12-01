@@ -77,7 +77,6 @@ class searchScript{
             echo "<a href='search.php?username={$this->username}'>Back to Search Page</a>";
             return true;
         }
-
         return false;
     }
 
