@@ -7,41 +7,16 @@
     <title>Main Page</title>
   </head>
   <body>
-  <?php
-    $username = $_GET['username']; 
-  	echo "<h2> " . $username . " </h2>";
-	echo "<h1> Main Page </h1>";
-	
-        $username = $_GET['username']; 
-        // Testing
-        // $username = 'milldev';
+    <?php
+      error_reporting(E_ALL ^ E_NOTICE);
 
-		    echo "
-          <a href='upload.php?username={$username}'>Upload Image</a></br>
-          <a href='search.php?username={$username}'>Search for Image</a></br>
-          <a href='login.php'>Logout</a></br>
+      require_once('C:/Apache24/htdocs/mainpageScript.php');
 
-          <h2>Image Gallery</h2>
-        ";
-
-        $currentDirectory = getcwd();
-        $imageDirectory = "/images/" . $username . "/";
-
-        $images = glob($currentDirectory.$imageDirectory."*.{jpeg,jpg,png}", GLOB_BRACE);
-        foreach($images as $image) {
-            $imageSize = getimagesize($image);
-            $image = str_replace($currentDirectory, '', $image);
-
-            $width = $imageSize[0] / 2;
-            $height = $imageSize[1] / 2;
-            $fileNum = pathinfo($image, PATHINFO_FILENAME);
-            echo " 
-                <a href='photodetail.php?image={$image}&username={$username}&imageNum={$fileNum}'>
-                    <img src='{$image}' width='{$width}' height='{$height}' />
-                </a>
-                <br />";
-        }
-      ?>
-		
+      $script = new mainpage($_GET['username']);
+      $script->getImages();
+      $script->displayHeader();
+      $script->displayButtons();
+      $script->displayImages();
+    ?>
   </body>
 </html>
