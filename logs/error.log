@@ -1405,3 +1405,4 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Wed Nov 30 18:37:42.681877 2022] [mpm_winnt:notice] [pid 39356:tid 364] AH00418: Parent: Created child process 35308
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::22f7:a0b8:75c6:51f6. Set the 'ServerName' directive globally to suppress this message
 AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::22f7:a0b8:75c6:51f6. Set the 'ServerName' directive globally to suppress this message
+[Wed Nov 30 18:37:45.088929 2022] [mpm_winnt:notice] [pid 35308:tid 324] AH00354: Child: Starting 64 worker threads.

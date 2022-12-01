@@ -1,44 +1,14 @@
 <?php
-error_reporting(E_ALL ^ E_NOTICE);
-
-$script = new UploadScript();
-$script->username = $_GET['username'];
-
-header( "refresh:5;url=upload.php?username={$script->username}" );
-
-class UploadScript{
+	$username = $_GET['username'];
+	header( "refresh:5;url=upload.php?username={$username}" );
+	error_reporting(E_ALL ^ E_NOTICE);
 	
-	public string $username;
-	public string $currentDirectory;
-	public string $uploadDirectory;
-	public string $num_file;
-	public string $index_file;
-	public string $errors;
-	
-	public function __construct(){
-		
-		$currentDirectory = getcwd();
-		$uploadDirectory = "/images/" . $username . "/";
-		
-	}
-	
-	public function createDirectory(): bool{
-		
-		if(!is_dir($uploadDirectory)){
-
-			return true;
-		}
-		return false;
-	}
-	
-	
-}
-	
-	if(!$script->doesFileExist("./images/" . $username . "/")){
-		
+	if(!is_dir("./images/" . $username . "/")){
+		mkdir("./images/" . $username . "/");
 	}
 
-
+    $currentDirectory = getcwd();
+    $uploadDirectory = "/images/" . $username . "/";
 
 	$num_file = $currentDirectory . $uploadDirectory . "num_imgs.txt";
 	$index_file =  $currentDirectory . $uploadDirectory . "index.txt";
