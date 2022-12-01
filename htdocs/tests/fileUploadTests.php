@@ -1,68 +1,53 @@
 <?php declare(strict_types=1);
 
-require_once('../fileUploadScript.php');
+require_once('C:/Apache24/htdocs/fileUploadScript.php');
 
 use PHPUnit\Framework\TestCase;
 
-final class UploadTest extends TestCase{
+final class fileUploadTests extends TestCase{
 	
-	
-	public function testDirectoryCreation{
-		
-		$script = new UploadScript("testUser");
-		
-		$this->assertSame($script->createDirectory(), false);
-		$this->assertSame($script->createDirectory(), true);
-		
-	}
 	
 	public function testGoodFileExt(){
 		
-		$script = new UploadScript("testUser");
+		$script = new UploadScript('testUser');
 
 		
-		$this->assertSame($script->isFileExtAllowed(".jpg"),true);
+		$this->assertTrue($script->isFileExtAllowed_t("jpg"));
 		
 	}
 	
 	public function testBadFileExt(){
-		$script = new UploadScript("testUser");
+		$script = new UploadScript('testUser');
 		
-		$this->assertSame($script->isFileExtAllowed(".txt"),false);
+		$this->assertFalse($script->isFileExtAllowed_t("txt"));
 		
 	}
 	
 	public function testGoodFileSize(){
-		$script = new UploadScript("testUser");
+		$script = new UploadScript('testUser');
 		
-		$this->assertSame($script->isFileSizeOk(500),true);
+		$this->assertTrue($script->isFileSizeOk_t(500));
 		
 	}
 	
 	public function testBadFileSize(){
-		$script = new UploadScript("testUser");
+		$script = new UploadScript('testUser');
 		
-		$this->assertSame($script->isFileSizeOk(4000001),false);
+		$this->assertFalse($script->isFileSizeOk_t(4000001));
 		
 	}
-	
-	public function testNumFileCreation(){ 
-		$script = new UploadScript("testUser");
-		
-		$this->assertSame($script->createNumFile(),false);
-		$this->assertSame($script->createNumFile(), true);
-	}
+
 	
 	public function testGoodKeywordAddition(){ 
-		$script = new UploadScript("testUser");
-		
+		$script = new UploadScript('testUser');
+
 		$this->assertSame($script->addKeywords("devin,devin,devin"),true);
 	}
 	
 	public function testBadKeywordAddition(){ 
-		$script = new UploadScript("testUser");
-		
-		$this->assertSame($script->addKeywords(""),true);
+		$script = new UploadScript('testUser');
+
+		$this->assertSame($script->addKeywords(""),false);
 	}
 	
 }

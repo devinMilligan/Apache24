@@ -1,14 +1,17 @@
 <?php
 error_reporting(E_ALL ^ E_NOTICE);
 
-$script = new UploadScript($_GET['username']);
+
+
+if (isset($_POST['submit'])) {
+	
+	$script = new UploadScript($_GET['username']);
 
 header( "refresh:5;url=upload.php?username={$script->username}" );
 
 $script->createDirectory();
 $script->getFileInformation();
-
-if (isset($_POST['submit'])) {
+	
 		if(!$script->isFileExtAllowed()){
 			
 			printErrors($script->errors);
@@ -72,7 +75,7 @@ class UploadScript{
 		$this->username = $usern;
 		$this->numFile = 0;
 		$this->errors = [];
-		$this->currentDirectory = getcwd();
+		$this->currentDirectory = "c:/Apache24/htdocs";
 		$this->uploadDirectory = "/images/" . $usern . "/";
 		$this->num_file = $this->currentDirectory . $this->uploadDirectory . "num_imgs.txt";
 		$this->index_file =  $this->currentDirectory . $this->uploadDirectory . "index.txt";
@@ -108,7 +111,7 @@ class UploadScript{
 		return true;
 	}
 	
-	public function isFileExtAllowed(string $fileExt): bool{
+	public function isFileExtAllowed_t(string $fileExt): bool{
 		
 		if (! in_array($fileExt,$this->fileExtensionsAllowed)) {
 			$this->errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
@@ -117,15 +120,6 @@ class UploadScript{
 		return true;
 	}
 	
-	public function isFileSizeOk(): bool{
-		
-		if ($this->fileSize > 4000000) {
-			$this->errors[] = "File exceeds maximum size (4MB)";
-			return false;
-		}
-		return true;
-		
-	}
 	
 	public function isFileSizeOk(): bool{
 		
@@ -137,7 +131,7 @@ class UploadScript{
 		
 	}
 	
-	public function isFileSizeOk(int $val): bool{
+	public function isFileSizeOk_t(int $val): bool{
 		
 		if ($val > 4000000) {
 			$this->errors[] = "File exceeds maximum size (4MB)";
@@ -208,7 +202,7 @@ class UploadScript{
 				}
 			}
 			
-			file_put_contents($this->index_file, implode(PHP_EOL, $lines));
+			file_put_contents($this->index_file, implode(PHP_EOL, $lines));	
 				
 			return true;
 				
@@ -220,6 +214,8 @@ class UploadScript{
 		
 		
 	}
+	
+
 	
 }
 
