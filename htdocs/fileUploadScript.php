@@ -108,9 +108,38 @@ class UploadScript{
 		return true;
 	}
 	
+	public function isFileExtAllowed(string $fileExt): bool{
+		
+		if (! in_array($fileExt,$this->fileExtensionsAllowed)) {
+			$this->errors[] = "This file extension is not allowed. Please upload a JPEG or PNG file";
+			return false;
+		}
+		return true;
+	}
+	
 	public function isFileSizeOk(): bool{
 		
 		if ($this->fileSize > 4000000) {
+			$this->errors[] = "File exceeds maximum size (4MB)";
+			return false;
+		}
+		return true;
+		
+	}
+	
+	public function isFileSizeOk(): bool{
+		
+		if ($this->fileSize > 4000000) {
+			$this->errors[] = "File exceeds maximum size (4MB)";
+			return false;
+		}
+		return true;
+		
+	}
+	
+	public function isFileSizeOk(int $val): bool{
+		
+		if ($val > 4000000) {
 			$this->errors[] = "File exceeds maximum size (4MB)";
 			return false;
 		}
