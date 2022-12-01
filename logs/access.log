@@ -740,3 +740,21 @@
 ::1 - - [30/Nov/2022:20:22:03 -0600] "GET /search.php?username=ryan HTTP/1.1" 200 636
 ::1 - - [30/Nov/2022:20:22:06 -0600] "POST /searchScript.php?username=ryan HTTP/1.1" 200 61
 ::1 - - [30/Nov/2022:20:22:11 -0600] "GET /search.php?username=ryan HTTP/1.1" 200 636
+::1 - - [30/Nov/2022:21:39:45 -0600] "GET / HTTP/1.1" 200 3188
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /mainpage.php?username=milldev HTTP/1.1" 200 3095
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/0.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/1.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/10.png HTTP/1.1" 200 25003
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/2.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/3.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/4.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/5.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/6.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/8.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/7.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:54 -0600] "GET /images/milldev/9.png HTTP/1.1" 304 -
+::1 - - [30/Nov/2022:21:39:56 -0600] "GET /upload.php?username=milldev HTTP/1.1" 200 759
+::1 - - [30/Nov/2022:21:40:07 -0600] "POST /fileUploadScript.php?username=milldev HTTP/1.1" 200 374
+::1 - - [30/Nov/2022:21:40:39 -0600] "POST /fileUploadScript.php?username=milldev HTTP/1.1" 200 26
+::1 - - [30/Nov/2022:21:40:45 -0600] "GET /upload.php?username=milldev HTTP/1.1" 200 759
+::1 - - [30/Nov/2022:21:41:45 -0600] "-" 408 -
