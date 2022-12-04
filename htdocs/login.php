@@ -16,26 +16,88 @@
 
     <h1>Login Page</h1>
 
-    <div>
+    <?php
+        $return_message = "";
+    ?>
+
+    <form method="POST">
+
       <label for="username">Username: </label>
-      <input type="text" placeholder="Enter Username" id="username">
+      
+      <input name="username" type="text" placeholder="Enter Username" id="username">
       <br>
 
       <label for="password">Password:</label>
-      <input type="password" placeholder="Enter Password" id="password">
+      
+      <input name="password" type="password" placeholder="Enter Password" id="password">
       <br>
 
-      <button id = "login_btn" type="submit" onclick = "login()">Login</button>
+      <button name="login_btn" id="login_btn" type="submit">Login</button> 
+      <!-- <button id = "login_btn" type="submit" onclick = "login()">Login</button>-->
       <br>
 
-      <button id = "create_btn" onclick = "signup_page()">Create An Account</button>
+      <button type="button" id="create_btn" onclick ="signup_page()">Create An Account</button>
       <br>
 
-      <button id = "signup_btn" onclick = "signup()" hidden>Signup</button>
+      <button name="signup_btn" id="signup_btn" type="submit" hidden>Signup</button>
+      <!-- <button id = "signup_btn" onclick = "signup()" hidden>Signup</button> -->
       <br>
+      <br>
+      
+      
 
-      <br><label class = "text" id = "text"></label>
-    </div>
+    </form>  
+
+    <?php
+        require_once('C:/Apache24/htdocs/loginScript.php');
+
+        if (isset($_POST['signup_btn']))
+        //if(array_key_exists('signup_btn',$_POST))
+        {
+          $script = new login_script();
+
+          $u_name = isset($_POST["username"] ) ? $_POST["username"]: '';
+          $pswrd =  isset($_POST["password"] ) ? $_POST["password"]: '';
+
+          $return_message = $script->signup($u_name, $pswrd);
+
+          echo "<script>console.log('Debug Objects: " . $return_message . "' );</script>";
+
+          if ($return_message == "Account created")
+          {
+            echo "<script> signup(); </script>";
+          }
+
+          echo "<label class = \"text\" id = \"text\">{$return_message}</label>";
+        }
+
+        if (isset($_POST['login_btn']))
+        //if(array_key_exists('login_btn',$_POST))
+        {
+          
+          $script = new login_script();
+
+          $u_name = isset($_POST["username"] ) ? $_POST["username"]: '';
+          $pswrd =  isset($_POST["password"] ) ? $_POST["password"]: '';
+
+          //echo "<label class = \"text\" id = \"text\">{$return_message}</label>";
+          echo "<script>console.log('Debug Objects: " . $u_name . "' );</script>";
+          echo "<script>console.log('Debug Objects: " . $pswrd . "' );</script>";
+
+          $return_message = $script->login($u_name, $pswrd);
+
+          if ($return_message == "Login successful")
+          {
+            header("Location: mainpage.php?username=" . $u_name);
+          }
+          else
+          {
+            echo "<label class = \"text\" id = \"text\">{$return_message}</label>";
+          }
+
+        }
+
+    ?>
 
     <script>
       var create_btn = document.getElementById('create_btn');
@@ -43,26 +105,13 @@
       var signup_btn = document.getElementById('signup_btn');
       var username = document.getElementById('username');
       var password = document.getElementById('password');
-      var msg = document.getElementById('text');
 
-      function login()
+      function clean_html()
       {
-        if (username.value == "" || password == "")
+        let d = document.getElementById('text');
+        if (d)
         {
-          msg.innerHTML = 'Please enter username and password.'
-        }
-        else if (localStorage.getItem(username.value) == null)
-        {
-          msg.innerHTML = 'Invalid username. Please try again.'
-        }
-        else if (localStorage.getItem(username.value) == password.value)
-        {
-          msg.innerHTML = 'Login successful.'
-          window.location = 'mainpage.php?username=' + username.value;
-        }
-        else
-        {
-          msg.innerHTML = 'Wrong password. Please try again.'
+          d.remove();
         }
       }
 
@@ -77,31 +126,20 @@
 
         username.value = "";
         password.value = "";
+
+        clean_html();
       }
+
       function signup()
       {
-        if (username.value == "" || password.value == "")
-        {
-          msg.innerHTML = 'Please enter username and password.'
-        }
-        else if (localStorage.getItem(username.value) != null)
-        {
-          msg.innerHTML = 'Username already exists. Please select another one.'
-        }
-        else
-        {
-          localStorage.setItem(username.value, password.value);
+        create_btn.removeAttribute('hidden');
+        login_btn.removeAttribute('hidden');
+        signup_btn.setAttribute('hidden', true);
 
-          create_btn.removeAttribute('hidden');
-          login_btn.removeAttribute('hidden');
-          signup_btn.setAttribute('hidden', true);
+        username.placeholder = 'Enter username';
+        password.placeholder = 'Enter password';
 
-          username.placeholder = 'Enter username';
-          password.placeholder = 'Enter password';
-
-          msg.innerHTML = 'Account created. Login using new credentials.'
         }
-      }
     </script>
 
   </body>
