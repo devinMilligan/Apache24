@@ -2,7 +2,7 @@
   error_reporting(E_ALL ^ E_NOTICE);
 
   class photodetail {
-        
+    
     public String $username;
     public String $currentDirectory;
     public String $usrDir;
@@ -12,7 +12,7 @@
     public function __construct(String $username, int $key, $image) {
       $this->username = $username;
       $this->key = $key;
-      $this->currentDirectory = getcwd();
+      $this->currentDirectory = "C:\Apache24\htdocs";
       $this->usrDir = "/images/" . $username . "/";
       $this->image = $image;
       print $this->key;
@@ -22,8 +22,9 @@
       echo "<img src='{$this->image}' />";
       echo '</br>';
     }
-    public function display_image_name(){
-      
+ 
+    public function get_key(){
+      return $this->key;
     }
     public function list_keywords(){
         $num_file = $this->currentDirectory . $this->usrDir . "num_imgs.txt";
@@ -41,9 +42,14 @@
             }
           }
         }
-		    echo "</br>";
+		  echo "</br>";
       echo "<h2> Keywords: {$keywords}<h2>";
-echo "<a href='mainpage.php?username={$this->username}'>Back to Main Page</a>";
+      return $keywords;
+   }
+
+    public function return_to_main_page(){
+      echo "<a href='mainpage.php?username={$this->username}'>Back to Main Page</a>";
+ 
     }
   }
 
