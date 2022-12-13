@@ -1581,3 +1581,906 @@ Apache server interrupted...
 [Thu Dec 01 13:05:05.054523 2022] [mpm_winnt:notice] [pid 27104:tid 428] AH00364: Child: All worker threads have exited.
 [Thu Dec 01 13:05:05.102557 2022] [mpm_winnt:notice] [pid 28756:tid 400] AH00430: Parent: Child process 27104 exited successfully.
 >>>>>>> eb7318e98ddbcbfcd52887b99b4bef01e84b3646
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 20:36:16.613023 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 20:36:16.613023 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:36:16.613023 2022] [core:notice] [pid 1676:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:36:16.615023 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00418: Parent: Created child process 16976
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 20:36:16.848075 2022] [mpm_winnt:notice] [pid 16976:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:43:14.258544 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00428: Parent: child process 16976 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 20:43:14.281716 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 20:43:14.281716 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 20:43:14.281716 2022] [core:notice] [pid 1676:tid 416] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 20:43:14.283717 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00418: Parent: Created child process 19280
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 20:43:14.498662 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 20:43:14.499664 2022] [mpm_winnt:notice] [pid 19280:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 20:43:14.501664 2022] [mpm_winnt:error] [pid 19280:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 20:43:14.501664 2022] [mpm_winnt:error] [pid 19280:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 20:43:16.514637 2022] [mpm_winnt:notice] [pid 19280:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 20:43:16.538642 2022] [mpm_winnt:notice] [pid 1676:tid 416] AH00430: Parent: Child process 19280 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:16:25.982480 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:16:25.982480 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:16:25.982480 2022] [core:notice] [pid 17468:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:16:25.985481 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00418: Parent: Created child process 5408
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:16:26.196528 2022] [mpm_winnt:notice] [pid 5408:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:16:45.637270 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00428: Parent: child process 5408 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:16:45.657276 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:16:45.657276 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:16:45.657276 2022] [core:notice] [pid 17468:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:16:45.659276 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00418: Parent: Created child process 23876
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:16:45.883326 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 21:16:45.884326 2022] [mpm_winnt:notice] [pid 23876:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:16:45.885327 2022] [mpm_winnt:error] [pid 23876:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:16:45.885327 2022] [mpm_winnt:error] [pid 23876:tid 1344] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:16:47.892966 2022] [mpm_winnt:notice] [pid 23876:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:16:47.917460 2022] [mpm_winnt:notice] [pid 17468:tid 400] AH00430: Parent: Child process 23876 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:22:03.298401 2022] [mpm_winnt:notice] [pid 14216:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:22:03.298401 2022] [mpm_winnt:notice] [pid 14216:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:22:03.298401 2022] [core:notice] [pid 14216:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:22:03.301401 2022] [mpm_winnt:notice] [pid 14216:tid 400] AH00418: Parent: Created child process 25132
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:22:03.540082 2022] [mpm_winnt:notice] [pid 25132:tid 404] AH00354: Child: Starting 64 worker threads.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+[Mon Dec 12 21:25:16.733856 2022] [core:warn] [pid 4632:tid 400] AH00098: pid file C:/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:25:16.753860 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:25:16.753860 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:25:16.753860 2022] [core:notice] [pid 4632:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:25:16.755860 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00418: Parent: Created child process 7528
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:25:16.984912 2022] [mpm_winnt:notice] [pid 7528:tid 428] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:57:50.387875 2022] [php:warn] [pid 7528:tid 1324] [client ::1:61505] PHP Warning:  require_once(C:/Apache24/htdocs/PhotodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:57:50.390770 2022] [php:error] [pid 7528:tid 1324] [client ::1:61505] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/PhotodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:57:53.820265 2022] [php:warn] [pid 7528:tid 1324] [client ::1:61505] PHP Warning:  require_once(C:/Apache24/htdocs/PhotodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:57:53.820265 2022] [php:error] [pid 7528:tid 1324] [client ::1:61505] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/PhotodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:07.846884 2022] [php:warn] [pid 7528:tid 1324] [client ::1:61509] PHP Warning:  require_once(C:/Apache24/htdocs/photodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:07.846884 2022] [php:error] [pid 7528:tid 1324] [client ::1:61509] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/photodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:08.734458 2022] [php:warn] [pid 7528:tid 1324] [client ::1:61509] PHP Warning:  require_once(C:/Apache24/htdocs/photodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:08.734458 2022] [php:error] [pid 7528:tid 1324] [client ::1:61509] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/photodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:11.696473 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00428: Parent: child process 7528 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:11.961772 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:58:11.961772 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:58:11.961772 2022] [core:notice] [pid 4632:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:58:11.974775 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00418: Parent: Created child process 23464
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:12.211844 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 21:58:12.212844 2022] [mpm_winnt:notice] [pid 23464:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:58:12.214846 2022] [mpm_winnt:error] [pid 23464:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:58:12.214846 2022] [mpm_winnt:error] [pid 23464:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:58:14.231835 2022] [mpm_winnt:notice] [pid 23464:tid 408] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:58:14.254862 2022] [mpm_winnt:notice] [pid 4632:tid 400] AH00430: Parent: Child process 23464 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:15.374672 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:58:15.374672 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:58:15.374672 2022] [core:notice] [pid 10960:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:58:15.376673 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00418: Parent: Created child process 12944
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:15.587726 2022] [mpm_winnt:notice] [pid 12944:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:58:19.197652 2022] [php:warn] [pid 12944:tid 1328] [client ::1:61511] PHP Warning:  require_once(C:/Apache24/htdocs/photodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:19.197652 2022] [php:error] [pid 12944:tid 1328] [client ::1:61511] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/photodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:20.171261 2022] [php:warn] [pid 12944:tid 1328] [client ::1:61511] PHP Warning:  require_once(C:/Apache24/htdocs/photodetailScrip.php): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:20.171261 2022] [php:error] [pid 12944:tid 1328] [client ::1:61511] PHP Fatal error:  Uncaught Error: Failed opening required 'C:/Apache24/htdocs/photodetailScrip.php' (include_path='.;C:\\php\\pear') in C:\\Apache24\\htdocs\\photodetail.php:13\nStack trace:\n#0 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetail.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 21:58:40.784214 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00428: Parent: child process 12944 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:40.803431 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:58:40.803431 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:58:40.803431 2022] [core:notice] [pid 10960:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:58:40.805432 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00418: Parent: Created child process 2000
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:41.017152 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 21:58:41.018151 2022] [mpm_winnt:notice] [pid 2000:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:58:41.019152 2022] [mpm_winnt:error] [pid 2000:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:58:41.019152 2022] [mpm_winnt:error] [pid 2000:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 21:58:43.023521 2022] [mpm_winnt:notice] [pid 2000:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 21:58:43.046888 2022] [mpm_winnt:notice] [pid 10960:tid 400] AH00430: Parent: Child process 2000 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:44.087427 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 21:58:44.087427 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 21:58:44.087427 2022] [core:notice] [pid 18892:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 21:58:44.090428 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00418: Parent: Created child process 18216
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 21:58:44.300936 2022] [mpm_winnt:notice] [pid 18216:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 21:58:47.661465 2022] [php:error] [pid 18216:tid 1328] [client ::1:61517] PHP Parse error:  syntax error, unexpected token "public" in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:00:09.229831 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00428: Parent: child process 18216 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:00:09.248835 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:00:09.248835 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:00:09.248835 2022] [core:notice] [pid 18892:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:00:09.251836 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00418: Parent: Created child process 17932
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:00:09.459059 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:00:09.460059 2022] [mpm_winnt:notice] [pid 17932:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:00:09.462060 2022] [mpm_winnt:error] [pid 17932:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:00:09.462060 2022] [mpm_winnt:error] [pid 17932:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:00:11.473046 2022] [mpm_winnt:notice] [pid 17932:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:00:11.499640 2022] [mpm_winnt:notice] [pid 18892:tid 400] AH00430: Parent: Child process 17932 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:00:12.382943 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:00:12.382943 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:00:12.382943 2022] [core:notice] [pid 23384:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:00:12.384943 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00418: Parent: Created child process 22496
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:00:12.594991 2022] [mpm_winnt:notice] [pid 22496:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:00:19.491386 2022] [php:warn] [pid 22496:tid 1332] [client ::1:61540] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:01:04.802463 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00428: Parent: child process 22496 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:01:04.821972 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:01:04.821972 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:01:04.821972 2022] [core:notice] [pid 23384:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:01:04.823972 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00418: Parent: Created child process 25400
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:01:05.034323 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:01:05.035323 2022] [mpm_winnt:notice] [pid 25400:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:01:05.036323 2022] [mpm_winnt:error] [pid 25400:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:01:05.036323 2022] [mpm_winnt:error] [pid 25400:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:01:07.059422 2022] [mpm_winnt:notice] [pid 25400:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:01:07.083151 2022] [mpm_winnt:notice] [pid 23384:tid 400] AH00430: Parent: Child process 25400 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:01:08.638063 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:01:08.639063 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:01:08.639063 2022] [core:notice] [pid 21664:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:01:08.641064 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00418: Parent: Created child process 25008
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:01:08.966130 2022] [mpm_winnt:notice] [pid 25008:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:01:14.092748 2022] [php:warn] [pid 25008:tid 1332] [client ::1:61558] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:01:15.000854 2022] [php:warn] [pid 25008:tid 1332] [client ::1:61558] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:01:37.886412 2022] [php:warn] [pid 25008:tid 1332] [client ::1:61568] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:02:17.411605 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00428: Parent: child process 25008 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:17.430815 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:02:17.430815 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:02:17.430815 2022] [core:notice] [pid 21664:tid 440] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:02:17.432817 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00418: Parent: Created child process 21268
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:17.642106 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:02:17.643106 2022] [mpm_winnt:notice] [pid 21268:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:02:17.644106 2022] [mpm_winnt:error] [pid 21268:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:02:17.644106 2022] [mpm_winnt:error] [pid 21268:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:02:19.666376 2022] [mpm_winnt:notice] [pid 21268:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:02:19.692713 2022] [mpm_winnt:notice] [pid 21664:tid 440] AH00430: Parent: Child process 21268 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:20.651484 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:02:20.651484 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:02:20.651484 2022] [core:notice] [pid 2684:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:02:20.654485 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00418: Parent: Created child process 21788
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:20.864802 2022] [mpm_winnt:notice] [pid 21788:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:02:22.557912 2022] [php:warn] [pid 21788:tid 1328] [client ::1:61579] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:02:48.941187 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00428: Parent: child process 21788 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:48.960192 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:02:48.960192 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:02:48.960192 2022] [core:notice] [pid 2684:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:02:48.962192 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00418: Parent: Created child process 2000
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:49.174798 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:02:49.175798 2022] [mpm_winnt:notice] [pid 2000:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:02:49.176798 2022] [mpm_winnt:error] [pid 2000:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:02:49.176798 2022] [mpm_winnt:error] [pid 2000:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:02:51.197811 2022] [mpm_winnt:notice] [pid 2000:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:02:51.222781 2022] [mpm_winnt:notice] [pid 2684:tid 400] AH00430: Parent: Child process 2000 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:52.367857 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:02:52.367857 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:02:52.367857 2022] [core:notice] [pid 24592:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:02:52.369849 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00418: Parent: Created child process 8164
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:02:52.580588 2022] [mpm_winnt:notice] [pid 8164:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:02:54.012944 2022] [php:warn] [pid 8164:tid 1336] [client ::1:61590] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:02:55.382514 2022] [php:warn] [pid 8164:tid 1336] [client ::1:61590] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:03:38.750271 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00428: Parent: child process 8164 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:03:38.770302 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:03:38.770302 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:03:38.770302 2022] [core:notice] [pid 24592:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:03:38.773303 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00418: Parent: Created child process 1332
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:03:38.988463 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:03:38.989463 2022] [mpm_winnt:notice] [pid 1332:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:03:38.990464 2022] [mpm_winnt:error] [pid 1332:tid 736] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:03:38.990464 2022] [mpm_winnt:error] [pid 1332:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:03:41.006507 2022] [mpm_winnt:notice] [pid 1332:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:03:41.031513 2022] [mpm_winnt:notice] [pid 24592:tid 400] AH00430: Parent: Child process 1332 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:03:41.970835 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:03:41.970835 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:03:41.970835 2022] [core:notice] [pid 20756:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:03:41.972835 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00418: Parent: Created child process 10364
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:03:42.185594 2022] [mpm_winnt:notice] [pid 10364:tid 416] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:03:44.037954 2022] [php:warn] [pid 10364:tid 1332] [client ::1:53127] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:03:45.008003 2022] [php:warn] [pid 10364:tid 1332] [client ::1:53127] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:04:00.798058 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00428: Parent: child process 10364 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:04:00.818064 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:04:00.818064 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:04:00.818064 2022] [core:notice] [pid 20756:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:04:00.820064 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00418: Parent: Created child process 2080
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:04:01.029380 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:04:01.030381 2022] [mpm_winnt:notice] [pid 2080:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:04:01.031381 2022] [mpm_winnt:error] [pid 2080:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:04:01.031381 2022] [mpm_winnt:error] [pid 2080:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:04:03.046315 2022] [mpm_winnt:notice] [pid 2080:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:04:03.071320 2022] [mpm_winnt:notice] [pid 20756:tid 400] AH00430: Parent: Child process 2080 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:04:04.006260 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:04:04.006260 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:04:04.006260 2022] [core:notice] [pid 10352:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:04:04.009262 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00418: Parent: Created child process 19652
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:04:04.223309 2022] [mpm_winnt:notice] [pid 19652:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:04:06.456132 2022] [php:warn] [pid 19652:tid 1336] [client ::1:53136] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 20, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:04:06.456132 2022] [php:warn] [pid 19652:tid 1336] [client ::1:53136] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:04:07.560816 2022] [php:warn] [pid 19652:tid 1336] [client ::1:53136] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 20, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:04:07.560816 2022] [php:warn] [pid 19652:tid 1336] [client ::1:53136] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:05:18.911612 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00428: Parent: child process 19652 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:18.936618 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:05:18.936618 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:05:18.936618 2022] [core:notice] [pid 10352:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:05:18.938618 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00418: Parent: Created child process 12024
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:19.169669 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:05:19.170669 2022] [mpm_winnt:notice] [pid 12024:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:05:19.172670 2022] [mpm_winnt:error] [pid 12024:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:05:19.172670 2022] [mpm_winnt:error] [pid 12024:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:05:21.190999 2022] [mpm_winnt:notice] [pid 12024:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:05:21.215523 2022] [mpm_winnt:notice] [pid 10352:tid 400] AH00430: Parent: Child process 12024 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:22.087144 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:05:22.087144 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:05:22.087144 2022] [core:notice] [pid 24964:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:05:22.090146 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00418: Parent: Created child process 22196
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:22.404493 2022] [mpm_winnt:notice] [pid 22196:tid 432] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:05:30.108379 2022] [php:error] [pid 22196:tid 1320] [client ::1:53165] PHP Parse error:  syntax error, unexpected token "}" in C:\\Apache24\\htdocs\\photodetailScript.php on line 19, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:05:39.349772 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00428: Parent: child process 22196 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:39.368786 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:05:39.368786 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:05:39.368786 2022] [core:notice] [pid 24964:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:05:39.370786 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00418: Parent: Created child process 24988
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:39.584834 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:05:39.585834 2022] [mpm_winnt:notice] [pid 24988:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:05:39.586834 2022] [mpm_winnt:error] [pid 24988:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:05:39.586834 2022] [mpm_winnt:error] [pid 24988:tid 1344] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:05:41.592161 2022] [mpm_winnt:notice] [pid 24988:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:05:41.615420 2022] [mpm_winnt:notice] [pid 24964:tid 428] AH00430: Parent: Child process 24988 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:42.351393 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:05:42.351393 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:05:42.351393 2022] [core:notice] [pid 21008:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:05:42.353394 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00418: Parent: Created child process 22624
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:05:42.566634 2022] [mpm_winnt:notice] [pid 22624:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:05:45.414151 2022] [php:warn] [pid 22624:tid 1332] [client ::1:53169] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:05:45.415151 2022] [php:warn] [pid 22624:tid 1332] [client ::1:53169] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:21:24.002392 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00428: Parent: child process 22624 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:21:24.022396 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:21:24.022396 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:21:24.022396 2022] [core:notice] [pid 21008:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:21:24.024397 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00418: Parent: Created child process 23428
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:21:24.236444 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:21:24.237446 2022] [mpm_winnt:notice] [pid 23428:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:21:24.238445 2022] [mpm_winnt:error] [pid 23428:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:21:24.238445 2022] [mpm_winnt:error] [pid 23428:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:21:26.266154 2022] [mpm_winnt:notice] [pid 23428:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:21:26.289161 2022] [mpm_winnt:notice] [pid 21008:tid 400] AH00430: Parent: Child process 23428 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:21:32.677403 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:21:32.677403 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:21:32.677403 2022] [core:notice] [pid 7400:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:21:32.679404 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00418: Parent: Created child process 1132
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:21:32.890626 2022] [mpm_winnt:notice] [pid 1132:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:21:36.610041 2022] [php:warn] [pid 1132:tid 1328] [client ::1:52192] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:21:36.610041 2022] [php:warn] [pid 1132:tid 1328] [client ::1:52192] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:22:03.732410 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00428: Parent: child process 1132 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:03.752414 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:22:03.752414 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:22:03.752414 2022] [core:notice] [pid 7400:tid 428] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:22:03.754415 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00418: Parent: Created child process 21816
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:03.962764 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:22:03.963765 2022] [mpm_winnt:notice] [pid 21816:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:22:03.965766 2022] [mpm_winnt:error] [pid 21816:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:22:03.965766 2022] [mpm_winnt:error] [pid 21816:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:22:05.995137 2022] [mpm_winnt:notice] [pid 21816:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:22:06.022416 2022] [mpm_winnt:notice] [pid 7400:tid 428] AH00430: Parent: Child process 21816 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:06.793794 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:22:06.793794 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:22:06.793794 2022] [core:notice] [pid 12996:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:22:06.796057 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00418: Parent: Created child process 3840
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:07.010926 2022] [mpm_winnt:notice] [pid 3840:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:22:08.569225 2022] [php:error] [pid 3840:tid 1328] [client ::1:52205] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\\Apache24\\htdocs\\photodetailScript.php:18\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:22:09.851861 2022] [php:error] [pid 3840:tid 1328] [client ::1:52205] PHP Fatal error:  Uncaught TypeError: Unsupported operand types: string + string in C:\\Apache24\\htdocs\\photodetailScript.php:18\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:22:32.252305 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00428: Parent: child process 3840 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:32.273375 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:22:32.273375 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:22:32.273375 2022] [core:notice] [pid 12996:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:22:32.275376 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00418: Parent: Created child process 12400
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:32.485392 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:22:32.486392 2022] [mpm_winnt:notice] [pid 12400:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:22:32.487392 2022] [mpm_winnt:error] [pid 12400:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:22:32.487392 2022] [mpm_winnt:error] [pid 12400:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:22:34.492075 2022] [mpm_winnt:notice] [pid 12400:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:22:34.516229 2022] [mpm_winnt:notice] [pid 12996:tid 400] AH00430: Parent: Child process 12400 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:36.015144 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:22:36.015144 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:22:36.015144 2022] [core:notice] [pid 15620:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:22:36.017137 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00418: Parent: Created child process 17240
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:22:36.243188 2022] [mpm_winnt:notice] [pid 17240:tid 468] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:22:38.893637 2022] [php:warn] [pid 17240:tid 1328] [client ::1:52215] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:22:38.893637 2022] [php:warn] [pid 17240:tid 1328] [client ::1:52215] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:23:07.848151 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00428: Parent: child process 17240 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:23:07.870157 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:23:07.870157 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:23:07.870157 2022] [core:notice] [pid 15620:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:23:07.872157 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00418: Parent: Created child process 4116
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:23:08.094206 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:23:08.095207 2022] [mpm_winnt:notice] [pid 4116:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:23:08.096207 2022] [mpm_winnt:error] [pid 4116:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:23:08.096207 2022] [mpm_winnt:error] [pid 4116:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:23:10.111674 2022] [mpm_winnt:notice] [pid 4116:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:23:10.137252 2022] [mpm_winnt:notice] [pid 15620:tid 400] AH00430: Parent: Child process 4116 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:23:11.149860 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:23:11.149860 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:23:11.149860 2022] [core:notice] [pid 13804:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:23:11.151860 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00418: Parent: Created child process 3488
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:23:11.367552 2022] [mpm_winnt:notice] [pid 3488:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:23:14.211178 2022] [php:warn] [pid 3488:tid 1336] [client ::1:52230] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:23:14.211178 2022] [php:warn] [pid 3488:tid 1336] [client ::1:52230] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:23:15.300211 2022] [php:warn] [pid 3488:tid 1336] [client ::1:52230] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:23:15.300211 2022] [php:warn] [pid 3488:tid 1336] [client ::1:52230] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:28:54.348897 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00428: Parent: child process 3488 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:28:54.368902 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:28:54.368902 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:28:54.368902 2022] [core:notice] [pid 13804:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:28:54.370902 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00418: Parent: Created child process 22064
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:28:54.579085 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:28:54.580085 2022] [mpm_winnt:notice] [pid 22064:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:28:54.581085 2022] [mpm_winnt:error] [pid 22064:tid 760] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:28:54.581085 2022] [mpm_winnt:error] [pid 22064:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:28:56.585793 2022] [mpm_winnt:notice] [pid 22064:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:28:56.609750 2022] [mpm_winnt:notice] [pid 13804:tid 400] AH00430: Parent: Child process 22064 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:28:56.951440 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:28:56.952440 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:28:56.952440 2022] [core:notice] [pid 3232:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:28:56.954441 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00418: Parent: Created child process 18352
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:28:57.166905 2022] [mpm_winnt:notice] [pid 18352:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:28:59.416898 2022] [php:error] [pid 18352:tid 1324] [client ::1:64729] PHP Parse error:  syntax error, unexpected token "echo" in C:\\Apache24\\htdocs\\photodetailScript.php on line 25, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:08.154665 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00428: Parent: child process 18352 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:08.174922 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:29:08.174922 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:29:08.174922 2022] [core:notice] [pid 3232:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:29:08.177924 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00418: Parent: Created child process 24508
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:08.387944 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:29:08.388944 2022] [mpm_winnt:notice] [pid 24508:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:29:08.389944 2022] [mpm_winnt:error] [pid 24508:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:29:08.389944 2022] [mpm_winnt:error] [pid 24508:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:29:10.414264 2022] [mpm_winnt:notice] [pid 24508:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:29:10.438858 2022] [mpm_winnt:notice] [pid 3232:tid 400] AH00430: Parent: Child process 24508 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:11.992065 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:29:11.992065 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:29:11.992065 2022] [core:notice] [pid 18532:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:29:11.995066 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00418: Parent: Created child process 3512
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:12.208289 2022] [mpm_winnt:notice] [pid 3512:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:29:14.943945 2022] [php:warn] [pid 3512:tid 1332] [client ::1:64739] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:14.943945 2022] [php:error] [pid 3512:tid 1332] [client ::1:64739] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:40.539023 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00428: Parent: child process 3512 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:40.561028 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:29:40.561028 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:29:40.561028 2022] [core:notice] [pid 18532:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:29:40.564029 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00418: Parent: Created child process 11928
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:40.774801 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:29:40.775802 2022] [mpm_winnt:notice] [pid 11928:tid 412] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:29:40.777802 2022] [mpm_winnt:error] [pid 11928:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:29:40.777802 2022] [mpm_winnt:error] [pid 11928:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:29:42.789903 2022] [mpm_winnt:notice] [pid 11928:tid 412] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:29:42.813220 2022] [mpm_winnt:notice] [pid 18532:tid 400] AH00430: Parent: Child process 11928 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:43.128840 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:29:43.129839 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:29:43.129839 2022] [core:notice] [pid 22068:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:29:43.131840 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00418: Parent: Created child process 18072
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:29:43.344888 2022] [mpm_winnt:notice] [pid 18072:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:29:44.599703 2022] [php:warn] [pid 18072:tid 1336] [client ::1:64753] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:44.599703 2022] [php:error] [pid 18072:tid 1336] [client ::1:64753] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:46.003211 2022] [php:warn] [pid 18072:tid 1336] [client ::1:64753] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:29:46.003211 2022] [php:error] [pid 18072:tid 1336] [client ::1:64753] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:29.518502 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00428: Parent: child process 18072 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:32:29.538506 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:32:29.538506 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:32:29.538506 2022] [core:notice] [pid 22068:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:32:29.540507 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00418: Parent: Created child process 17220
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:32:29.753867 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:32:29.754867 2022] [mpm_winnt:notice] [pid 17220:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:32:29.755868 2022] [mpm_winnt:error] [pid 17220:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:32:29.755868 2022] [mpm_winnt:error] [pid 17220:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:32:31.764083 2022] [mpm_winnt:notice] [pid 17220:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:32:31.788192 2022] [mpm_winnt:notice] [pid 22068:tid 400] AH00430: Parent: Child process 17220 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:32:32.580309 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:32:32.580309 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:32:32.580309 2022] [core:notice] [pid 23924:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:32:32.582299 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00418: Parent: Created child process 5232
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:32:32.800367 2022] [mpm_winnt:notice] [pid 5232:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:32:34.958097 2022] [php:warn] [pid 5232:tid 1332] [client ::1:64814] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:34.958097 2022] [php:error] [pid 5232:tid 1332] [client ::1:64814] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:35.805469 2022] [php:warn] [pid 5232:tid 1332] [client ::1:64814] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:35.805469 2022] [php:error] [pid 5232:tid 1332] [client ::1:64814] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:38.492264 2022] [php:warn] [pid 5232:tid 1332] [client ::1:64814] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:32:38.492264 2022] [php:error] [pid 5232:tid 1332] [client ::1:64814] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property photodetail::$username of type string in C:\\Apache24\\htdocs\\photodetailScript.php:13\nStack trace:\n#0 C:\\Apache24\\htdocs\\photodetail.php(17): photodetail->__construct('a', 0, '/images/a/0.jpg')\n#1 {main}\n  thrown in C:\\Apache24\\htdocs\\photodetailScript.php on line 13, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:33:20.224032 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00428: Parent: child process 5232 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:20.245037 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:33:20.245037 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:33:20.245037 2022] [core:notice] [pid 23924:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:33:20.247037 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00418: Parent: Created child process 1208
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:20.474088 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:33:20.475089 2022] [mpm_winnt:notice] [pid 1208:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:33:20.477089 2022] [mpm_winnt:error] [pid 1208:tid 524] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:33:20.477089 2022] [mpm_winnt:error] [pid 1208:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:33:22.492011 2022] [mpm_winnt:notice] [pid 1208:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:33:22.517019 2022] [mpm_winnt:notice] [pid 23924:tid 400] AH00430: Parent: Child process 1208 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:22.844573 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:33:22.844573 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:33:22.844573 2022] [core:notice] [pid 18212:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:33:22.847578 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00418: Parent: Created child process 14308
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:23.062605 2022] [mpm_winnt:notice] [pid 14308:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:33:23.977694 2022] [php:warn] [pid 14308:tid 1336] [client ::1:64831] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:33:23.977694 2022] [php:warn] [pid 14308:tid 1336] [client ::1:64831] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:33:43.077101 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00428: Parent: child process 14308 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:43.098106 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:33:43.098106 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:33:43.098106 2022] [core:notice] [pid 18212:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:33:43.100106 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00418: Parent: Created child process 22172
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:43.419911 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:33:43.420911 2022] [mpm_winnt:notice] [pid 22172:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:33:43.421911 2022] [mpm_winnt:error] [pid 22172:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:33:43.421911 2022] [mpm_winnt:error] [pid 22172:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:33:45.443478 2022] [mpm_winnt:notice] [pid 22172:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:33:45.467696 2022] [mpm_winnt:notice] [pid 18212:tid 400] AH00430: Parent: Child process 22172 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:46.480467 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:33:46.480467 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:33:46.480467 2022] [core:notice] [pid 23868:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:33:46.482468 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00418: Parent: Created child process 14212
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:46.693541 2022] [mpm_winnt:notice] [pid 14212:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:33:48.404921 2022] [php:warn] [pid 14212:tid 1332] [client ::1:64839] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:33:48.405921 2022] [php:warn] [pid 14212:tid 1332] [client ::1:64839] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:33:57.930172 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00428: Parent: child process 14212 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:57.951077 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:33:57.951077 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:33:57.951077 2022] [core:notice] [pid 23868:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:33:57.953077 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00418: Parent: Created child process 12044
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:33:58.163921 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:33:58.164922 2022] [mpm_winnt:notice] [pid 12044:tid 408] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:33:58.165922 2022] [mpm_winnt:error] [pid 12044:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:33:58.165922 2022] [mpm_winnt:error] [pid 12044:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:34:00.168325 2022] [mpm_winnt:notice] [pid 12044:tid 408] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:34:00.193692 2022] [mpm_winnt:notice] [pid 23868:tid 400] AH00430: Parent: Child process 12044 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:00.508236 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:34:00.508236 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:34:00.508236 2022] [core:notice] [pid 5688:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:34:00.510238 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00418: Parent: Created child process 13668
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:00.836509 2022] [mpm_winnt:notice] [pid 13668:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:34:02.175553 2022] [php:warn] [pid 13668:tid 1332] [client ::1:64848] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 20, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:02.175553 2022] [php:warn] [pid 13668:tid 1332] [client ::1:64848] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:31.618905 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00428: Parent: child process 13668 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:31.638910 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:34:31.638910 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:34:31.638910 2022] [core:notice] [pid 5688:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:34:31.640910 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00418: Parent: Created child process 3488
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:31.851041 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:34:31.852041 2022] [mpm_winnt:notice] [pid 3488:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:34:31.853041 2022] [mpm_winnt:error] [pid 3488:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:34:31.853041 2022] [mpm_winnt:error] [pid 3488:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:34:33.858893 2022] [mpm_winnt:notice] [pid 3488:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:34:33.883158 2022] [mpm_winnt:notice] [pid 5688:tid 400] AH00430: Parent: Child process 3488 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:34.519185 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:34:34.519185 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:34:34.519185 2022] [core:notice] [pid 25488:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:34:34.521185 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00418: Parent: Created child process 25512
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:34:34.733233 2022] [mpm_winnt:notice] [pid 25512:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 20, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 21, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 28, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 28, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 29, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  file(index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:34:36.369655 2022] [php:warn] [pid 25512:tid 1332] [client ::1:64866] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\photodetailScript.php on line 32, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:20.104892 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00428: Parent: child process 25512 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:20.125843 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:35:20.125843 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:35:20.125843 2022] [core:notice] [pid 25488:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:35:20.127843 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00418: Parent: Created child process 14816
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:20.348893 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:35:20.349893 2022] [mpm_winnt:notice] [pid 14816:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:35:20.351894 2022] [mpm_winnt:error] [pid 14816:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:35:20.351894 2022] [mpm_winnt:error] [pid 14816:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:35:22.374019 2022] [mpm_winnt:notice] [pid 14816:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:35:22.398922 2022] [mpm_winnt:notice] [pid 25488:tid 400] AH00430: Parent: Child process 14816 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:23.204350 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:35:23.204350 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:35:23.204350 2022] [core:notice] [pid 2376:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:35:23.206350 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00418: Parent: Created child process 8344
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:23.417397 2022] [mpm_winnt:notice] [pid 8344:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 19, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  file(index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetailScript.php on line 33, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:25.194506 2022] [php:warn] [pid 8344:tid 1332] [client ::1:64883] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\photodetailScript.php on line 34, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:35.624134 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00428: Parent: child process 8344 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:35.644139 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:35:35.644139 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:35:35.644139 2022] [core:notice] [pid 2376:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:35:35.647139 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00418: Parent: Created child process 9852
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:35.854471 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:35:35.855472 2022] [mpm_winnt:notice] [pid 9852:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:35:35.856472 2022] [mpm_winnt:error] [pid 9852:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:35:35.856472 2022] [mpm_winnt:error] [pid 9852:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:35:37.879198 2022] [mpm_winnt:notice] [pid 9852:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:35:37.903467 2022] [mpm_winnt:notice] [pid 2376:tid 400] AH00430: Parent: Child process 9852 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:38.962699 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:35:38.962699 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:35:38.962699 2022] [core:notice] [pid 24872:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:35:38.964700 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00418: Parent: Created child process 17272
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:39.179747 2022] [mpm_winnt:notice] [pid 17272:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:35:41.470972 2022] [php:warn] [pid 17272:tid 1332] [client ::1:64890] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:41.470972 2022] [php:warn] [pid 17272:tid 1332] [client ::1:64890] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 19, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:35:59.748177 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00428: Parent: child process 17272 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:59.768182 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:35:59.768182 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:35:59.768182 2022] [core:notice] [pid 24872:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:35:59.770182 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00418: Parent: Created child process 13424
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:35:59.978229 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:35:59.979230 2022] [mpm_winnt:notice] [pid 13424:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:35:59.981231 2022] [mpm_winnt:error] [pid 13424:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:35:59.981231 2022] [mpm_winnt:error] [pid 13424:tid 1344] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:36:02.007110 2022] [mpm_winnt:notice] [pid 13424:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:36:02.033243 2022] [mpm_winnt:notice] [pid 24872:tid 400] AH00430: Parent: Child process 13424 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:02.792175 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:36:02.792175 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:36:02.792175 2022] [core:notice] [pid 25228:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:36:02.794175 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00418: Parent: Created child process 16340
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:03.004578 2022] [mpm_winnt:notice] [pid 16340:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:36:04.772344 2022] [php:warn] [pid 16340:tid 1332] [client ::1:64897] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 19, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:36:27.869936 2022] [php:warn] [pid 16340:tid 1332] [client ::1:64907] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:36:29.745921 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00428: Parent: child process 16340 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:29.765790 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:36:29.765790 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:36:29.765790 2022] [core:notice] [pid 25228:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:36:29.768791 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00418: Parent: Created child process 18768
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:29.975871 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:36:29.976874 2022] [mpm_winnt:notice] [pid 18768:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:36:29.978873 2022] [mpm_winnt:error] [pid 18768:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:36:29.978873 2022] [mpm_winnt:error] [pid 18768:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:36:31.992153 2022] [mpm_winnt:notice] [pid 18768:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:36:32.019046 2022] [mpm_winnt:notice] [pid 25228:tid 400] AH00430: Parent: Child process 18768 exited successfully.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:32.974238 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:36:32.974238 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:36:32.974238 2022] [core:notice] [pid 15340:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:36:32.976238 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00418: Parent: Created child process 11096
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:36:33.187285 2022] [mpm_winnt:notice] [pid 11096:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:36:34.957324 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64910] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:36:36.126711 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64910] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 18, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 22, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  file(index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetailScript.php on line 33, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:37:52.368577 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64943] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\photodetailScript.php on line 34, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  Undefined variable $image in C:\\Apache24\\htdocs\\photodetailScript.php on line 23, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  file(index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetailScript.php on line 33, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:04.756481 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64948] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\photodetailScript.php on line 34, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 30, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  Undefined variable $currentDirectory in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  Undefined variable $usrDir in C:\\Apache24\\htdocs\\photodetailScript.php on line 31, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  file(index.txt): Failed to open stream: No such file or directory in C:\\Apache24\\htdocs\\photodetailScript.php on line 33, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:16.911336 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64953] PHP Warning:  foreach() argument must be of type array|object, bool given in C:\\Apache24\\htdocs\\photodetailScript.php on line 34, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:55.868983 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64973] PHP Warning:  Undefined variable $key in C:\\Apache24\\htdocs\\photodetailScript.php on line 36, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:55.868983 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64973] PHP Warning:  Undefined variable $key in C:\\Apache24\\htdocs\\photodetailScript.php on line 36, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:55.868983 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64973] PHP Warning:  Undefined variable $key in C:\\Apache24\\htdocs\\photodetailScript.php on line 36, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:55.868983 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64973] PHP Warning:  Undefined variable $key in C:\\Apache24\\htdocs\\photodetailScript.php on line 36, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:38:55.868983 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64973] PHP Warning:  Undefined variable $key in C:\\Apache24\\htdocs\\photodetailScript.php on line 36, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:39:47.790586 2022] [php:warn] [pid 11096:tid 1332] [client ::1:64995] PHP Warning:  Undefined variable $username in C:\\Apache24\\htdocs\\photodetailScript.php on line 45, referer: http://localhost/mainpage.php?username=a
+[Mon Dec 12 22:41:22.075096 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00428: Parent: child process 11096 exited with status 3221225786 -- Restarting.
+Apache server interrupted...
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:41:22.095100 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00455: Apache/2.4.54 (Win64) PHP/8.1.12 configured -- resuming normal operations
+[Mon Dec 12 22:41:22.095100 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00456: Apache Lounge VS17 Server built: Nov 10 2022 11:16:17
+[Mon Dec 12 22:41:22.095100 2022] [core:notice] [pid 15340:tid 400] AH00094: Command line: 'C:\\Apache24\\bin\\httpd.exe -d C:/Apache24'
+[Mon Dec 12 22:41:22.098100 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00418: Parent: Created child process 23400
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::dba3:9183:a063:d2e9. Set the 'ServerName' directive globally to suppress this message
+PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: ext\\mbstring (The specified module could not be found), ext\\php_mbstring.dll (The specified module could not be found)) in Unknown on line 0
+[Mon Dec 12 22:41:22.310148 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 12 22:41:22.311148 2022] [mpm_winnt:notice] [pid 23400:tid 404] AH00354: Child: Starting 64 worker threads.
+[Mon Dec 12 22:41:22.312149 2022] [mpm_winnt:error] [pid 23400:tid 1348] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:41:22.312149 2022] [mpm_winnt:error] [pid 23400:tid 1340] (OS 10038)An operation was attempted on something that is not a socket.  : AH00332: winnt_accept: getsockname error on listening socket, is IPv6 available?
+[Mon Dec 12 22:41:24.331910 2022] [mpm_winnt:notice] [pid 23400:tid 404] AH00364: Child: All worker threads have exited.
+[Mon Dec 12 22:41:24.355257 2022] [mpm_winnt:notice] [pid 15340:tid 400] AH00430: Parent: Child process 23400 exited successfully.
