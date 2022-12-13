@@ -23,6 +23,9 @@
       echo '</br>';
     }
  
+    public function get_image(){
+      return $this->image;
+    }
     public function get_key(){
       return $this->key;
     }

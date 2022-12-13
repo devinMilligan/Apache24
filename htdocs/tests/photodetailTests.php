@@ -17,6 +17,15 @@ final class photodetailTests extends TestCase{
     $script = new photodetail('b', 0, '../images/b/0.jpg');
     $this->assertSame($script->list_keywords(), "'walking' 'shoes' ");
   }
+   public function testImage(){
+    $script = new photodetail('b', 0, '../images/b/0.jpg');
+    $this->assertSame($script->get_image(), "../images/b/0.jpg");
+  }
+  public function testImageNum(){
+    $script = new photodetail('b', 0, '../images/b/0.jpg');
+    $this->assertSame($script->get_key(), 0);
+  }
+  
 }
 
 
